@@ -1,0 +1,1 @@
+{"name":"smakova-liha-worker","private":true,"type":"module","scripts":{"test":"node tests/smoke.mjs"}}
