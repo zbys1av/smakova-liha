@@ -8,7 +8,12 @@
       "oldAux": 4,
       "category": "Друге",
       "taste": "Пряне",
-      "id": "f001"
+      "id": "f001",
+      "type": "Картопляна страва",
+      "tasteTags": [
+        "Пряне"
+      ],
+      "tasteCustom": ""
     },
     {
       "name": "\"Павший Наполеон\"",
@@ -17,7 +22,12 @@
       "oldAux": 3.8,
       "category": "Десерт",
       "taste": "Солодке",
-      "id": "f002"
+      "id": "f002",
+      "type": "Торт / пиріг",
+      "tasteTags": [
+        "Солодке"
+      ],
+      "tasteCustom": ""
     },
     {
       "name": "\"Перина і какао зверху\"",
@@ -26,7 +36,12 @@
       "oldAux": 4,
       "category": "Десерт",
       "taste": "Солодке",
-      "id": "f003"
+      "id": "f003",
+      "type": "Кекс / печиво",
+      "tasteTags": [
+        "Солодке"
+      ],
+      "tasteCustom": ""
     },
     {
       "name": "\"Макарони, курка і три томати\"",
@@ -35,7 +50,12 @@
       "oldAux": 4.1,
       "category": "Друге",
       "taste": "Пряне",
-      "id": "f004"
+      "id": "f004",
+      "type": "Паста / макарони",
+      "tasteTags": [
+        "Пряне"
+      ],
+      "tasteCustom": ""
     },
     {
       "name": "\"Наполеон на літніх канікулах\"",
@@ -44,7 +64,12 @@
       "oldAux": 4.3,
       "category": "Десерт",
       "taste": "Солодке",
-      "id": "f005"
+      "id": "f005",
+      "type": "Торт / пиріг",
+      "tasteTags": [
+        "Солодке"
+      ],
+      "tasteCustom": ""
     },
     {
       "name": "\"Джек Потрошитель\"",
@@ -53,7 +78,12 @@
       "oldAux": 3.9,
       "category": "Друге",
       "taste": "Пряне",
-      "id": "f006"
+      "id": "f006",
+      "type": "Паста / макарони",
+      "tasteTags": [
+        "Пряне"
+      ],
+      "tasteCustom": ""
     },
     {
       "name": "\"Маленький Чайна Таун\"",
@@ -62,7 +92,12 @@
       "oldAux": 4.4,
       "category": "Друге",
       "taste": "Пікантне",
-      "id": "f007"
+      "id": "f007",
+      "type": "Рис / крупа",
+      "tasteTags": [
+        "Пікантне"
+      ],
+      "tasteCustom": ""
     },
     {
       "name": "Чізкейк \"Чіво трісьошся\"",
@@ -71,7 +106,12 @@
       "oldAux": 3.7,
       "category": "Десерт",
       "taste": "Солодке",
-      "id": "f008"
+      "id": "f008",
+      "type": "Сирник / чизкейк",
+      "tasteTags": [
+        "Солодке"
+      ],
+      "tasteCustom": ""
     },
     {
       "name": "\"Не млинці, а налисники з сиром\"",
@@ -80,7 +120,12 @@
       "oldAux": 3.7,
       "category": "Десерт",
       "taste": "Солодке",
-      "id": "f009"
+      "id": "f009",
+      "type": "Млинці / сирники",
+      "tasteTags": [
+        "Солодке"
+      ],
+      "tasteCustom": ""
     },
     {
       "name": "\"Хто розсипав тако в мою пасту?!\"",
@@ -89,7 +134,12 @@
       "oldAux": 4.1,
       "category": "Друге",
       "taste": "Пікантне",
-      "id": "f010"
+      "id": "f010",
+      "type": "Паста / макарони",
+      "tasteTags": [
+        "Пікантне"
+      ],
+      "tasteCustom": ""
     },
     {
       "name": "\"Шкіряний торт\"",
@@ -98,7 +148,12 @@
       "oldAux": 3.8,
       "category": "Десерт",
       "taste": "Солодке",
-      "id": "f011"
+      "id": "f011",
+      "type": "Торт / пиріг",
+      "tasteTags": [
+        "Солодке"
+      ],
+      "tasteCustom": ""
     },
     {
       "name": "\"VIP пюрешка\"",
@@ -107,7 +162,12 @@
       "oldAux": 4.3,
       "category": "Друге",
       "taste": "Пряне",
-      "id": "f012"
+      "id": "f012",
+      "type": "Картопляна страва",
+      "tasteTags": [
+        "Пряне"
+      ],
+      "tasteCustom": ""
     },
     {
       "name": "\"Розтанувший ріжок\"",
@@ -116,7 +176,12 @@
       "oldAux": 4.1,
       "category": "Десерт",
       "taste": "Солодке",
-      "id": "f013"
+      "id": "f013",
+      "type": "Торт / пиріг",
+      "tasteTags": [
+        "Солодке"
+      ],
+      "tasteCustom": ""
     },
     {
       "name": "\"Лоно-памадоро\"",
@@ -125,7 +190,12 @@
       "oldAux": 4.3,
       "category": "Друге",
       "taste": "Пікантне",
-      "id": "f014"
+      "id": "f014",
+      "type": "М’ясна страва",
+      "tasteTags": [
+        "Пікантне"
+      ],
+      "tasteCustom": ""
     },
     {
       "name": "Оладі \"Ябельники\"",
@@ -134,7 +204,12 @@
       "oldAux": 3.5,
       "category": "Десерт",
       "taste": "Солодке",
-      "id": "f015"
+      "id": "f015",
+      "type": "Млинці / сирники",
+      "tasteTags": [
+        "Солодке"
+      ],
+      "tasteCustom": ""
     },
     {
       "name": "\"Ніжний борщ\"",
@@ -143,7 +218,12 @@
       "oldAux": 3.8,
       "category": "Перше",
       "taste": "Ніжне",
-      "id": "f016"
+      "id": "f016",
+      "type": "Суп / перше",
+      "tasteTags": [
+        "Ніжне"
+      ],
+      "tasteCustom": ""
     },
     {
       "name": "\"Розчленований сніговик\"",
@@ -152,7 +232,12 @@
       "oldAux": 4,
       "category": "Десерт",
       "taste": "Солодке",
-      "id": "f017"
+      "id": "f017",
+      "type": "Омлет / яйця",
+      "tasteTags": [
+        "Солодке"
+      ],
+      "tasteCustom": ""
     },
     {
       "name": "Котлєткі \"не класичні\"",
@@ -161,7 +246,12 @@
       "oldAux": 4,
       "category": "Не повне",
       "taste": "Пряне",
-      "id": "f018"
+      "id": "f018",
+      "type": "М’ясна страва",
+      "tasteTags": [
+        "Пряне"
+      ],
+      "tasteCustom": ""
     },
     {
       "name": "\"Омлет з городу\"",
@@ -170,7 +260,12 @@
       "oldAux": 3.8,
       "category": "Друге",
       "taste": "Ніжне",
-      "id": "f019"
+      "id": "f019",
+      "type": "Омлет / яйця",
+      "tasteTags": [
+        "Ніжне"
+      ],
+      "tasteCustom": ""
     },
     {
       "name": "\"Кекс Орєшковій\"",
@@ -179,7 +274,12 @@
       "oldAux": 3.8,
       "category": "Десерт",
       "taste": "Солодке",
-      "id": "f020"
+      "id": "f020",
+      "type": "Кекс / печиво",
+      "tasteTags": [
+        "Солодке"
+      ],
+      "tasteCustom": ""
     },
     {
       "name": "Кекс \"Чорний Банан\"",
@@ -188,7 +288,12 @@
       "oldAux": 3.5,
       "category": "Десерт",
       "taste": "Солодке",
-      "id": "f021"
+      "id": "f021",
+      "type": "Кекс / печиво",
+      "tasteTags": [
+        "Солодке"
+      ],
+      "tasteCustom": ""
     },
     {
       "name": "\"Лист з сирної пошти\"",
@@ -197,7 +302,12 @@
       "oldAux": 3.6,
       "category": "Друге",
       "taste": "Кисле",
-      "id": "f022"
+      "id": "f022",
+      "type": "Картопляна страва",
+      "tasteTags": [
+        "Кисле"
+      ],
+      "tasteCustom": ""
     },
     {
       "name": "\"Ціпітко в клярі\"",
@@ -206,7 +316,12 @@
       "oldAux": 4.2,
       "category": "Друге",
       "taste": "Пряне",
-      "id": "f023"
+      "id": "f023",
+      "type": "Омлет / яйця",
+      "tasteTags": [
+        "Пряне"
+      ],
+      "tasteCustom": ""
     },
     {
       "name": "\"Якийсь неправильний медовик\"",
@@ -215,7 +330,12 @@
       "oldAux": 4.7,
       "category": "Десерт",
       "taste": "Солодке",
-      "id": "f024"
+      "id": "f024",
+      "type": "Торт / пиріг",
+      "tasteTags": [
+        "Солодке"
+      ],
+      "tasteCustom": ""
     },
     {
       "name": "\"Сирничок XXXL\"",
@@ -224,7 +344,12 @@
       "oldAux": 4.5,
       "category": "Десерт",
       "taste": "Солодке",
-      "id": "f025"
+      "id": "f025",
+      "type": "Універсальна страва",
+      "tasteTags": [
+        "Солодке"
+      ],
+      "tasteCustom": ""
     },
     {
       "name": "\"Майже вівсяне печиво\"",
@@ -233,7 +358,12 @@
       "oldAux": 3.5,
       "category": "Десерт",
       "taste": "Солодке",
-      "id": "f026"
+      "id": "f026",
+      "type": "Кекс / печиво",
+      "tasteTags": [
+        "Солодке"
+      ],
+      "tasteCustom": ""
     },
     {
       "name": "\"Чорне майже вівсяне печиво\"",
@@ -242,7 +372,12 @@
       "oldAux": 3.9,
       "category": "Десерт",
       "taste": "Солодке",
-      "id": "f027"
+      "id": "f027",
+      "type": "Кекс / печиво",
+      "tasteTags": [
+        "Солодке"
+      ],
+      "tasteCustom": ""
     },
     {
       "name": "\"Кекс зі світу гігантів\" (сирний)",
@@ -251,7 +386,12 @@
       "oldAux": 4.1,
       "category": "Десерт",
       "taste": "Солодке",
-      "id": "f028"
+      "id": "f028",
+      "type": "Кекс / печиво",
+      "tasteTags": [
+        "Солодке"
+      ],
+      "tasteCustom": ""
     },
     {
       "name": "\"Майже рагу\"",
@@ -260,7 +400,12 @@
       "oldAux": 3.6,
       "category": "Друге",
       "taste": "Пряне",
-      "id": "f029"
+      "id": "f029",
+      "type": "Картопляна страва",
+      "tasteTags": [
+        "Пряне"
+      ],
+      "tasteCustom": ""
     },
     {
       "name": "\"Бісквіт по гавайськи\"",
@@ -269,7 +414,12 @@
       "oldAux": 3.8,
       "category": "Десерт",
       "taste": "Солодке",
-      "id": "f030"
+      "id": "f030",
+      "type": "Торт / пиріг",
+      "tasteTags": [
+        "Солодке"
+      ],
+      "tasteCustom": ""
     },
     {
       "name": "\"Тірамісу панелька\"",
@@ -278,7 +428,12 @@
       "oldAux": 4.7,
       "category": "Десерт",
       "taste": "Солодке",
-      "id": "f031"
+      "id": "f031",
+      "type": "Торт / пиріг",
+      "tasteTags": [
+        "Солодке"
+      ],
+      "tasteCustom": ""
     },
     {
       "name": "\"М'ясо по гавайськи\"",
@@ -287,7 +442,12 @@
       "oldAux": 3.8,
       "category": "Друге",
       "taste": "Пряне",
-      "id": "f032"
+      "id": "f032",
+      "type": "М’ясна страва",
+      "tasteTags": [
+        "Пряне"
+      ],
+      "tasteCustom": ""
     },
     {
       "name": "\"Каклєтка\"",
@@ -296,7 +456,12 @@
       "oldAux": 4.6,
       "category": "Друге",
       "taste": "Пряне",
-      "id": "f033"
+      "id": "f033",
+      "type": "М’ясна страва",
+      "tasteTags": [
+        "Пряне"
+      ],
+      "tasteCustom": ""
     },
     {
       "name": "Сирники",
@@ -305,7 +470,12 @@
       "oldAux": 4.5,
       "category": "Друге",
       "taste": "Солодке",
-      "id": "f034"
+      "id": "f034",
+      "type": "Млинці / сирники",
+      "tasteTags": [
+        "Солодке"
+      ],
+      "tasteCustom": ""
     },
     {
       "name": "Дируни",
@@ -314,7 +484,12 @@
       "oldAux": null,
       "category": "Друге",
       "taste": "Пікантне",
-      "id": "f035"
+      "id": "f035",
+      "type": "Картопляна страва",
+      "tasteTags": [
+        "Пікантне"
+      ],
+      "tasteCustom": ""
     },
     {
       "name": "Шарлотка",
@@ -323,7 +498,12 @@
       "oldAux": 4.7,
       "category": "Десерт",
       "taste": "Солодке",
-      "id": "f036"
+      "id": "f036",
+      "type": "Торт / пиріг",
+      "tasteTags": [
+        "Солодке"
+      ],
+      "tasteCustom": ""
     },
     {
       "name": "\"Бананова вайля\"",
@@ -332,7 +512,12 @@
       "oldAux": 4.4,
       "category": "Десерт",
       "taste": "Солодке",
-      "id": "f037"
+      "id": "f037",
+      "type": "Торт / пиріг",
+      "tasteTags": [
+        "Солодке"
+      ],
+      "tasteCustom": ""
     },
     {
       "name": "\"Абрикос впав в тірамісу\"",
@@ -341,7 +526,12 @@
       "oldAux": 3.9,
       "category": "Десерт",
       "taste": "Солодке",
-      "id": "f038"
+      "id": "f038",
+      "type": "Торт / пиріг",
+      "tasteTags": [
+        "Солодке"
+      ],
+      "tasteCustom": ""
     },
     {
       "name": "Маковий сирник",
@@ -350,7 +540,12 @@
       "oldAux": 4.4,
       "category": "Десерт",
       "taste": "Солодке",
-      "id": "f039"
+      "id": "f039",
+      "type": "Універсальна страва",
+      "tasteTags": [
+        "Солодке"
+      ],
+      "tasteCustom": ""
     },
     {
       "name": "Зупа з фрекадельками але без них",
@@ -359,7 +554,12 @@
       "oldAux": 3.8,
       "category": "Перше",
       "taste": "Пряне",
-      "id": "f040"
+      "id": "f040",
+      "type": "Суп / перше",
+      "tasteTags": [
+        "Пряне"
+      ],
+      "tasteCustom": ""
     },
     {
       "name": "Моркв'яний пиріг",
@@ -368,22 +568,1661 @@
       "oldAux": 4.5,
       "category": "Десерт",
       "taste": "Ніжне",
-      "id": "f041"
+      "id": "f041",
+      "type": "Торт / пиріг",
+      "tasteTags": [
+        "Ніжне"
+      ],
+      "tasteCustom": ""
     },
     {
-      "name": "Сіно і бони",
-      "description": "Сінабони з додаванням какао",
-      "oldRating": 4.25,
-      "oldAux": 4.6,
+      "id": "imvkz5qcnkvrvnl",
+      "name": "Сіна і Бон",
+      "description": "Сінабон на основі домашнього тіста, з додаванням вершкової помадки та какао",
+      "taste": "солодке",
       "category": "Десерт",
-      "taste": "Солодке",
-      "id": "f042"
+      "oldRating": null,
+      "oldAux": null,
+      "type": "Універсальна страва",
+      "tasteTags": [],
+      "tasteCustom": "солодке",
+      "archived": true,
+      "archivedAt": "2026-10-23T15:23:24.077Z"
+    },
+    {
+      "id": "imvl4idx8vwh5ej",
+      "name": "тест2",
+      "description": "215434унпувкаі",
+      "taste": "Пряне, Сирне, Ягідне",
+      "category": "Друге",
+      "type": "Універсальна страва",
+      "tasteTags": [
+        "Пряне",
+        "Сирне",
+        "Ягідне"
+      ],
+      "tasteCustom": "",
+      "oldRating": null,
+      "oldAux": null,
+      "archived": true,
+      "archivedAt": "2026-10-23T16:09:27.181Z"
+    },
+    {
+      "id": "imvl5epbdobsbfg",
+      "name": "Сіна і Бон",
+      "description": "Сінабон на основі домашнього тіста, з додаванням вершків, кориці та какао",
+      "taste": "Солодке, Ніжне, Вершкове, Шоколадне, Ситне",
+      "category": "Десерт",
+      "type": "Кекс / печиво",
+      "tasteTags": [
+        "Солодке",
+        "Ніжне",
+        "Вершкове",
+        "Шоколадне",
+        "Ситне"
+      ],
+      "tasteCustom": "",
+      "oldRating": null,
+      "oldAux": null
+    },
+    {
+      "id": "imvl5ky9r4y259n",
+      "name": "Гарбузовий пиріг",
+      "description": "Пюре з печеного гарбуза з тістом, запечене в аеро грилі",
+      "taste": "Солодке, Ніжне, Гарбузове",
+      "category": "Десерт",
+      "type": "Торт / пиріг",
+      "tasteTags": [
+        "Солодке",
+        "Ніжне"
+      ],
+      "tasteCustom": "Гарбузове",
+      "oldRating": null,
+      "oldAux": null
     }
   ],
-  "history": [],
-  "tournaments": {},
-  "champions": [],
-  "freePairs": {},
-  "calibrations": {},
+  "history": [
+    {
+      "id": "imvkyp2gv2ngozg",
+      "date": "2026-10-23T12:44:22.591Z",
+      "winner": "f016",
+      "loser": "f040",
+      "category": "Перше",
+      "lane": "upper",
+      "tournament": "imvkynv441nszmq",
+      "earned": 14
+    },
+    {
+      "id": "imvkypnvip0fgve",
+      "date": "2026-10-23T12:44:50.334Z",
+      "winner": "f016",
+      "loser": "f040",
+      "category": "Перше",
+      "lane": "final",
+      "tournament": "imvkynv441nszmq",
+      "earned": 14
+    },
+    {
+      "id": "imvkyr81x1hvxbo",
+      "date": "2026-10-23T12:46:03.141Z",
+      "winner": "f004",
+      "loser": "f035",
+      "category": "Друге",
+      "lane": "upper",
+      "tournament": "imvkyqkxf9r9l47",
+      "earned": 14
+    },
+    {
+      "id": "imvkyrhm22nqclr",
+      "date": "2026-10-23T12:46:15.530Z",
+      "winner": "f034",
+      "loser": "f006",
+      "category": "Друге",
+      "lane": "upper",
+      "tournament": "imvkyqkxf9r9l47",
+      "earned": 14
+    },
+    {
+      "id": "imvkyro2kbbjd6e",
+      "date": "2026-10-23T12:46:23.900Z",
+      "winner": "f007",
+      "loser": "f033",
+      "category": "Друге",
+      "lane": "upper",
+      "tournament": "imvkyqkxf9r9l47",
+      "earned": 14
+    },
+    {
+      "id": "imvkyrx9nwi12tn",
+      "date": "2026-10-23T12:46:35.819Z",
+      "winner": "f010",
+      "loser": "f032",
+      "category": "Друге",
+      "lane": "upper",
+      "tournament": "imvkyqkxf9r9l47",
+      "earned": 14
+    },
+    {
+      "id": "imvkyt7e5ywihil",
+      "date": "2026-10-23T12:47:35.597Z",
+      "winner": "f012",
+      "loser": "f029",
+      "category": "Друге",
+      "lane": "upper",
+      "tournament": "imvkyqkxf9r9l47",
+      "earned": 14
+    },
+    {
+      "id": "imvkyv6b1d0t9vc",
+      "date": "2026-10-23T12:49:07.501Z",
+      "winner": "f014",
+      "loser": "f023",
+      "category": "Друге",
+      "lane": "upper",
+      "tournament": "imvkyqkxf9r9l47",
+      "earned": 14
+    },
+    {
+      "id": "imvkyvmrbhznukj",
+      "date": "2026-10-23T12:49:28.823Z",
+      "winner": "f022",
+      "loser": "f019",
+      "category": "Друге",
+      "lane": "upper",
+      "tournament": "imvkyqkxf9r9l47",
+      "earned": 14
+    },
+    {
+      "id": "imvkyvsd5gtfl51",
+      "date": "2026-10-23T12:49:36.089Z",
+      "winner": "f006",
+      "loser": "f019",
+      "category": "Друге",
+      "lane": "lower",
+      "tournament": "imvkyqkxf9r9l47",
+      "earned": 14
+    },
+    {
+      "id": "imvkyw0wuteddxp",
+      "date": "2026-10-23T12:49:47.166Z",
+      "winner": "f033",
+      "loser": "f023",
+      "category": "Друге",
+      "lane": "lower",
+      "tournament": "imvkyqkxf9r9l47",
+      "earned": 14
+    },
+    {
+      "id": "imvkyw4b4evie2y",
+      "date": "2026-10-23T12:49:51.568Z",
+      "winner": "f032",
+      "loser": "f029",
+      "category": "Друге",
+      "lane": "lower",
+      "tournament": "imvkyqkxf9r9l47",
+      "earned": 14
+    },
+    {
+      "id": "imvkywcdc8aryww",
+      "date": "2026-10-23T12:50:02.016Z",
+      "winner": "f001",
+      "loser": "f004",
+      "category": "Друге",
+      "lane": "upper",
+      "tournament": "imvkyqkxf9r9l47",
+      "earned": 14
+    },
+    {
+      "id": "imvkyyxh4xdmavg",
+      "date": "2026-10-23T12:52:02.680Z",
+      "winner": "f034",
+      "loser": "f022",
+      "category": "Друге",
+      "lane": "upper",
+      "tournament": "imvkyqkxf9r9l47",
+      "earned": 14
+    },
+    {
+      "id": "imvkyzezwusdhzd",
+      "date": "2026-10-23T12:52:25.388Z",
+      "winner": "f007",
+      "loser": "f014",
+      "category": "Друге",
+      "lane": "upper",
+      "tournament": "imvkyqkxf9r9l47",
+      "earned": 14
+    },
+    {
+      "id": "imvkyzygizcsnpd",
+      "date": "2026-10-23T12:52:50.610Z",
+      "winner": "f012",
+      "loser": "f010",
+      "category": "Друге",
+      "lane": "upper",
+      "tournament": "imvkyqkxf9r9l47",
+      "earned": 14
+    },
+    {
+      "id": "imvkz01woh6czno",
+      "date": "2026-10-23T12:52:55.080Z",
+      "winner": "f004",
+      "loser": "f035",
+      "category": "Друге",
+      "lane": "lower",
+      "tournament": "imvkyqkxf9r9l47",
+      "earned": 14
+    },
+    {
+      "id": "imvkz0gn1jwxnij",
+      "date": "2026-10-23T12:53:14.173Z",
+      "winner": "f010",
+      "loser": "f006",
+      "category": "Друге",
+      "lane": "lower",
+      "tournament": "imvkyqkxf9r9l47",
+      "earned": 14
+    },
+    {
+      "id": "imvkz0t9mzca1ai",
+      "date": "2026-10-23T12:53:30.538Z",
+      "winner": "f014",
+      "loser": "f033",
+      "category": "Друге",
+      "lane": "lower",
+      "tournament": "imvkyqkxf9r9l47",
+      "earned": 14
+    },
+    {
+      "id": "imvkz146bol869s",
+      "date": "2026-10-23T12:53:44.675Z",
+      "winner": "f032",
+      "loser": "f022",
+      "category": "Друге",
+      "lane": "lower",
+      "tournament": "imvkyqkxf9r9l47",
+      "earned": 14
+    },
+    {
+      "id": "imvkz18gh7s0g69",
+      "date": "2026-10-23T12:53:50.225Z",
+      "winner": "f001",
+      "loser": "f034",
+      "category": "Друге",
+      "lane": "upper",
+      "tournament": "imvkyqkxf9r9l47",
+      "earned": 14
+    },
+    {
+      "id": "imvkz1dttm9zavg",
+      "date": "2026-10-23T12:53:57.185Z",
+      "winner": "f007",
+      "loser": "f012",
+      "category": "Друге",
+      "lane": "upper",
+      "tournament": "imvkyqkxf9r9l47",
+      "earned": 14
+    },
+    {
+      "id": "imvkz1inzk35idt",
+      "date": "2026-10-23T12:54:03.455Z",
+      "winner": "f004",
+      "loser": "f034",
+      "category": "Друге",
+      "lane": "lower",
+      "tournament": "imvkyqkxf9r9l47",
+      "earned": 14
+    },
+    {
+      "id": "imvkz1po920nazg",
+      "date": "2026-10-23T12:54:12.537Z",
+      "winner": "f012",
+      "loser": "f010",
+      "category": "Друге",
+      "lane": "lower",
+      "tournament": "imvkyqkxf9r9l47",
+      "earned": 14
+    },
+    {
+      "id": "imvkz1xcbz12n9j",
+      "date": "2026-10-23T12:54:22.475Z",
+      "winner": "f014",
+      "loser": "f032",
+      "category": "Друге",
+      "lane": "lower",
+      "tournament": "imvkyqkxf9r9l47",
+      "earned": 14
+    },
+    {
+      "id": "imvkz20wtkhlkof",
+      "date": "2026-10-23T12:54:27.101Z",
+      "winner": "f001",
+      "loser": "f007",
+      "category": "Друге",
+      "lane": "upper",
+      "tournament": "imvkyqkxf9r9l47",
+      "earned": 14
+    },
+    {
+      "id": "imvkz2l9hfvggzi",
+      "date": "2026-10-23T12:54:53.477Z",
+      "winner": "f007",
+      "loser": "f014",
+      "category": "Друге",
+      "lane": "lower",
+      "tournament": "imvkyqkxf9r9l47",
+      "earned": 14
+    },
+    {
+      "id": "imvkz2zcq6nl4hr",
+      "date": "2026-10-23T12:55:11.738Z",
+      "winner": "f004",
+      "loser": "f012",
+      "category": "Друге",
+      "lane": "lower",
+      "tournament": "imvkyqkxf9r9l47",
+      "earned": 14
+    },
+    {
+      "id": "imvkz32k6i0m9fq",
+      "date": "2026-10-23T12:55:15.894Z",
+      "winner": "f007",
+      "loser": "f004",
+      "category": "Друге",
+      "lane": "lower",
+      "tournament": "imvkyqkxf9r9l47",
+      "earned": 14
+    },
+    {
+      "id": "imvkz34mj5x03ze",
+      "date": "2026-10-23T12:55:18.571Z",
+      "winner": "f001",
+      "loser": "f007",
+      "category": "Друге",
+      "lane": "final",
+      "tournament": "imvkyqkxf9r9l47",
+      "earned": 14
+    },
+    {
+      "id": "imvl4j24nkgzkuq",
+      "date": "2026-10-23T15:27:39.911Z",
+      "winner": "f010",
+      "loser": "imvl4idx8vwh5ej",
+      "category": "Друге",
+      "lane": "calibration",
+      "auto": true,
+      "scope": "same",
+      "target": "imvl4idx8vwh5ej",
+      "tournament": null,
+      "expectedTarget": 0.5,
+      "earned": 0
+    },
+    {
+      "id": "imvl4j3fbceufyz",
+      "date": "2026-10-23T15:27:41.591Z",
+      "winner": "imvl4idx8vwh5ej",
+      "loser": "f006",
+      "category": "Друге",
+      "lane": "calibration",
+      "auto": true,
+      "scope": "same",
+      "target": "imvl4idx8vwh5ej",
+      "tournament": null,
+      "expectedTarget": 0.5,
+      "earned": 14
+    },
+    {
+      "id": "imvl4j4domxakyo",
+      "date": "2026-10-23T15:27:42.828Z",
+      "winner": "imvl4idx8vwh5ej",
+      "loser": "f032",
+      "category": "Друге",
+      "lane": "calibration",
+      "auto": true,
+      "scope": "same",
+      "target": "imvl4idx8vwh5ej",
+      "tournament": null,
+      "expectedTarget": 0.5,
+      "earned": 14
+    },
+    {
+      "id": "imvl4j4z5b7lei2",
+      "date": "2026-10-23T15:27:43.601Z",
+      "winner": "f012",
+      "loser": "imvl4idx8vwh5ej",
+      "category": "Друге",
+      "lane": "calibration",
+      "auto": true,
+      "scope": "same",
+      "target": "imvl4idx8vwh5ej",
+      "tournament": null,
+      "expectedTarget": 0.5000000049576137,
+      "earned": 0
+    },
+    {
+      "id": "imvl4j5lund0bs8",
+      "date": "2026-10-23T15:27:44.418Z",
+      "winner": "f034",
+      "loser": "imvl4idx8vwh5ej",
+      "category": "Друге",
+      "lane": "calibration",
+      "auto": true,
+      "scope": "same",
+      "target": "imvl4idx8vwh5ej",
+      "tournament": null,
+      "expectedTarget": 0.498940272549121,
+      "earned": 0
+    },
+    {
+      "id": "imvl4j62y1t5385",
+      "date": "2026-10-23T15:27:45.034Z",
+      "winner": "imvl4idx8vwh5ej",
+      "loser": "f022",
+      "category": "Друге",
+      "lane": "calibration",
+      "auto": true,
+      "scope": "same",
+      "target": "imvl4idx8vwh5ej",
+      "tournament": null,
+      "expectedTarget": 0.5000488020241591,
+      "earned": 14
+    },
+    {
+      "id": "imvl4j6gh6n8iic",
+      "date": "2026-10-23T15:27:45.521Z",
+      "winner": "f014",
+      "loser": "imvl4idx8vwh5ej",
+      "category": "Друге",
+      "lane": "calibration",
+      "auto": true,
+      "scope": "same",
+      "target": "imvl4idx8vwh5ej",
+      "tournament": null,
+      "expectedTarget": 0.4770811904824909,
+      "earned": 0
+    },
+    {
+      "id": "imvl4j6xk3t5uui",
+      "date": "2026-10-23T15:27:46.136Z",
+      "winner": "imvl4idx8vwh5ej",
+      "loser": "f033",
+      "category": "Друге",
+      "lane": "calibration",
+      "auto": true,
+      "scope": "same",
+      "target": "imvl4idx8vwh5ej",
+      "tournament": null,
+      "expectedTarget": 0.5011020030065468,
+      "earned": 14
+    },
+    {
+      "id": "imvl4j841wf1h02",
+      "date": "2026-10-23T15:27:47.665Z",
+      "winner": "f004",
+      "loser": "imvl4idx8vwh5ej",
+      "category": "Друге",
+      "lane": "calibration",
+      "auto": true,
+      "scope": "same",
+      "target": "imvl4idx8vwh5ej",
+      "tournament": null,
+      "expectedTarget": 0.4551625871236233,
+      "earned": 0
+    },
+    {
+      "id": "imvl4j8nu10z1zb",
+      "date": "2026-10-23T15:27:48.378Z",
+      "winner": "imvl4idx8vwh5ej",
+      "loser": "f019",
+      "category": "Друге",
+      "lane": "calibration",
+      "auto": true,
+      "scope": "same",
+      "target": "imvl4idx8vwh5ej",
+      "tournament": null,
+      "expectedTarget": 0.5261181512072473,
+      "earned": 14
+    },
+    {
+      "id": "imvl5exg8x4yb84",
+      "date": "2026-10-23T15:52:26.840Z",
+      "winner": "imvl5epbdobsbfg",
+      "loser": "f002",
+      "category": "Десерт",
+      "lane": "calibration",
+      "auto": true,
+      "mutual": true,
+      "k": 32,
+      "scope": "same",
+      "target": "imvl5epbdobsbfg",
+      "tournament": null,
+      "expectedTarget": 0.5,
+      "earned": 14,
+      "eloDelta": 16
+    },
+    {
+      "id": "imvl5fidcn8917f",
+      "date": "2026-10-23T15:52:53.952Z",
+      "winner": "f003",
+      "loser": "imvl5epbdobsbfg",
+      "category": "Десерт",
+      "lane": "calibration",
+      "auto": true,
+      "mutual": true,
+      "k": 32,
+      "scope": "same",
+      "target": "imvl5epbdobsbfg",
+      "tournament": null,
+      "expectedTarget": 0.5230095872975623,
+      "earned": 14,
+      "eloDelta": 16.736306793521994
+    },
+    {
+      "id": "imvl5fltagthprb",
+      "date": "2026-10-23T15:52:58.414Z",
+      "winner": "f005",
+      "loser": "imvl5epbdobsbfg",
+      "category": "Десерт",
+      "lane": "calibration",
+      "auto": true,
+      "mutual": true,
+      "k": 32,
+      "scope": "same",
+      "target": "imvl5epbdobsbfg",
+      "tournament": null,
+      "expectedTarget": 0.5010596290677872,
+      "earned": 14,
+      "eloDelta": 16.033908130169195
+    },
+    {
+      "id": "imvl5fxo5p77fww",
+      "date": "2026-10-23T15:53:13.782Z",
+      "winner": "f008",
+      "loser": "imvl5epbdobsbfg",
+      "category": "Десерт",
+      "lane": "calibration",
+      "auto": true,
+      "mutual": true,
+      "k": 32,
+      "scope": "same",
+      "target": "imvl5epbdobsbfg",
+      "tournament": null,
+      "expectedTarget": 0.4780966047276055,
+      "earned": 14,
+      "eloDelta": 15.299091351283376
+    },
+    {
+      "id": "imvl5fzcdpa8rf6",
+      "date": "2026-10-23T15:53:15.949Z",
+      "winner": "imvl5epbdobsbfg",
+      "loser": "f009",
+      "category": "Десерт",
+      "lane": "calibration",
+      "auto": true,
+      "mutual": true,
+      "k": 32,
+      "scope": "same",
+      "target": "imvl5epbdobsbfg",
+      "tournament": null,
+      "expectedTarget": 0.4541769774435178,
+      "earned": 14,
+      "eloDelta": 17.46633672180743
+    },
+    {
+      "id": "imvl5g3myvhkyzw",
+      "date": "2026-10-23T15:53:21.514Z",
+      "winner": "imvl5epbdobsbfg",
+      "loser": "f011",
+      "category": "Десерт",
+      "lane": "calibration",
+      "auto": true,
+      "mutual": true,
+      "k": 32,
+      "scope": "same",
+      "target": "imvl5epbdobsbfg",
+      "tournament": null,
+      "expectedTarget": 0.47919613471563405,
+      "earned": 14,
+      "eloDelta": 16.66572368909971
+    },
+    {
+      "id": "imvl5ggh1ov7y9m",
+      "date": "2026-10-23T15:53:38.149Z",
+      "winner": "f013",
+      "loser": "imvl5epbdobsbfg",
+      "category": "Десерт",
+      "lane": "calibration",
+      "auto": true,
+      "mutual": true,
+      "k": 32,
+      "scope": "same",
+      "target": "imvl5epbdobsbfg",
+      "tournament": null,
+      "expectedTarget": 0.5031679789287679,
+      "earned": 14,
+      "eloDelta": 16.101375325720568
+    },
+    {
+      "id": "imvl5gkhdv04ry9",
+      "date": "2026-10-23T15:53:43.345Z",
+      "winner": "imvl5epbdobsbfg",
+      "loser": "f015",
+      "category": "Десерт",
+      "lane": "calibration",
+      "auto": true,
+      "mutual": true,
+      "k": 32,
+      "scope": "same",
+      "target": "imvl5epbdobsbfg",
+      "tournament": null,
+      "expectedTarget": 0.4802982672433246,
+      "earned": 14,
+      "eloDelta": 16.630455448213613
+    },
+    {
+      "id": "imvl5hj09o390i2",
+      "date": "2026-10-23T15:54:28.089Z",
+      "winner": "imvl5epbdobsbfg",
+      "loser": "f017",
+      "category": "Десерт",
+      "lane": "calibration",
+      "auto": true,
+      "mutual": true,
+      "k": 32,
+      "scope": "same",
+      "target": "imvl5epbdobsbfg",
+      "tournament": null,
+      "expectedTarget": 0.5042211101807903,
+      "earned": 14,
+      "eloDelta": 15.86492447421471
+    },
+    {
+      "id": "imvl5hxd3z14f8q",
+      "date": "2026-10-23T15:54:46.695Z",
+      "winner": "imvl5epbdobsbfg",
+      "loser": "f020",
+      "category": "Десерт",
+      "lane": "calibration",
+      "auto": true,
+      "mutual": true,
+      "k": 32,
+      "scope": "same",
+      "target": "imvl5epbdobsbfg",
+      "tournament": null,
+      "expectedTarget": 0.5270263050710234,
+      "earned": 14,
+      "eloDelta": 15.13515823772725
+    },
+    {
+      "id": "imvl5m5ymasd4mz",
+      "date": "2026-10-23T15:58:04.462Z",
+      "winner": "imvl5epbdobsbfg",
+      "loser": "imvl5ky9r4y259n",
+      "category": "Десерт",
+      "lane": "calibration",
+      "auto": true,
+      "mutual": true,
+      "k": 32,
+      "scope": "same",
+      "target": "imvl5ky9r4y259n",
+      "tournament": null,
+      "expectedTarget": 0.45132076979350544,
+      "earned": 14,
+      "eloDelta": 14.442264633392174
+    },
+    {
+      "id": "imvl5m7r04u7wjq",
+      "date": "2026-10-23T15:58:06.780Z",
+      "winner": "f020",
+      "loser": "imvl5ky9r4y259n",
+      "category": "Десерт",
+      "lane": "calibration",
+      "auto": true,
+      "mutual": true,
+      "k": 32,
+      "scope": "same",
+      "target": "imvl5ky9r4y259n",
+      "tournament": null,
+      "expectedTarget": 0.4990028472692469,
+      "earned": 14,
+      "eloDelta": 15.968091112615898
+    },
+    {
+      "id": "imvl5ma3k29xdg9",
+      "date": "2026-10-23T15:58:09.824Z",
+      "winner": "imvl5ky9r4y259n",
+      "loser": "f017",
+      "category": "Десерт",
+      "lane": "calibration",
+      "auto": true,
+      "mutual": true,
+      "k": 32,
+      "scope": "same",
+      "target": "imvl5ky9r4y259n",
+      "tournament": null,
+      "expectedTarget": 0.47490196770247817,
+      "earned": 14,
+      "eloDelta": 16.8031370335207
+    },
+    {
+      "id": "imvl5mcqlvh9o9v",
+      "date": "2026-10-23T15:58:13.245Z",
+      "winner": "imvl5ky9r4y259n",
+      "loser": "f002",
+      "category": "Десерт",
+      "lane": "calibration",
+      "auto": true,
+      "mutual": true,
+      "k": 32,
+      "scope": "same",
+      "target": "imvl5ky9r4y259n",
+      "tournament": null,
+      "expectedTarget": 0.4988681270575823,
+      "earned": 14,
+      "eloDelta": 16.036219934157366
+    },
+    {
+      "id": "imvl5micnbrd2i6",
+      "date": "2026-10-23T15:58:20.519Z",
+      "winner": "imvl5ky9r4y259n",
+      "loser": "f009",
+      "category": "Десерт",
+      "lane": "calibration",
+      "auto": true,
+      "mutual": true,
+      "k": 32,
+      "scope": "same",
+      "target": "imvl5ky9r4y259n",
+      "tournament": null,
+      "expectedTarget": 0.5198254728913276,
+      "earned": 14,
+      "eloDelta": 15.365584867477516
+    },
+    {
+      "id": "imvl5mmqk62s0tf",
+      "date": "2026-10-23T15:58:26.204Z",
+      "winner": "f008",
+      "loser": "imvl5ky9r4y259n",
+      "category": "Десерт",
+      "lane": "calibration",
+      "auto": true,
+      "mutual": true,
+      "k": 32,
+      "scope": "same",
+      "target": "imvl5ky9r4y259n",
+      "tournament": null,
+      "expectedTarget": 0.4990159429319758,
+      "earned": 14,
+      "eloDelta": 15.968510173823226
+    },
+    {
+      "id": "imvl5mpg98fyw0x",
+      "date": "2026-10-23T15:58:29.721Z",
+      "winner": "imvl5ky9r4y259n",
+      "loser": "f011",
+      "category": "Десерт",
+      "lane": "calibration",
+      "auto": true,
+      "mutual": true,
+      "k": 32,
+      "scope": "same",
+      "target": "imvl5ky9r4y259n",
+      "tournament": null,
+      "expectedTarget": 0.5200190256209971,
+      "earned": 14,
+      "eloDelta": 15.359391180128092
+    },
+    {
+      "id": "imvl5ms6zxg3ig5",
+      "date": "2026-10-23T15:58:33.275Z",
+      "winner": "f005",
+      "loser": "imvl5ky9r4y259n",
+      "category": "Десерт",
+      "lane": "calibration",
+      "auto": true,
+      "mutual": true,
+      "k": 32,
+      "scope": "same",
+      "target": "imvl5ky9r4y259n",
+      "tournament": null,
+      "expectedTarget": 0.49699126392475584,
+      "earned": 14,
+      "eloDelta": 15.903720445592185
+    },
+    {
+      "id": "imvl5muc35sar68",
+      "date": "2026-10-23T15:58:36.051Z",
+      "winner": "imvl5ky9r4y259n",
+      "loser": "f015",
+      "category": "Десерт",
+      "lane": "calibration",
+      "auto": true,
+      "mutual": true,
+      "k": 32,
+      "scope": "same",
+      "target": "imvl5ky9r4y259n",
+      "tournament": null,
+      "expectedTarget": 0.519010851554345,
+      "earned": 14,
+      "eloDelta": 15.39165275026096
+    },
+    {
+      "id": "imvl5nda45hhrwa",
+      "date": "2026-10-23T15:59:00.604Z",
+      "winner": "imvl5ky9r4y259n",
+      "loser": "f013",
+      "category": "Десерт",
+      "lane": "calibration",
+      "auto": true,
+      "mutual": true,
+      "k": 32,
+      "scope": "same",
+      "target": "imvl5ky9r4y259n",
+      "tournament": null,
+      "expectedTarget": 0.4958801882617952,
+      "earned": 14,
+      "eloDelta": 16.131833975622555
+    },
+    {
+      "id": "imvl61i7l79y41t",
+      "date": "2026-10-23T16:10:00.177Z",
+      "winner": "f040",
+      "loser": "f016",
+      "category": "Перше",
+      "lane": "upper",
+      "tournament": "imvl37knr4ixjnf",
+      "earned": 15
+    },
+    {
+      "id": "imvl61l2h1iwak2",
+      "date": "2026-10-23T16:10:03.881Z",
+      "winner": "f040",
+      "loser": "f016",
+      "category": "Перше",
+      "lane": "final",
+      "tournament": "imvl37knr4ixjnf",
+      "earned": 14
+    },
+    {
+      "id": "imvl681leoqejbl",
+      "date": "2026-10-23T16:15:05.234Z",
+      "winner": "imvl5ky9r4y259n",
+      "loser": "f015",
+      "category": "Десерт",
+      "lane": "upper",
+      "tournament": "imvl63ta20ir1g3",
+      "earned": 13
+    },
+    {
+      "id": "imvl685rc43rn0k",
+      "date": "2026-10-23T16:15:10.632Z",
+      "winner": "f005",
+      "loser": "f011",
+      "category": "Десерт",
+      "lane": "upper",
+      "tournament": "imvl63ta20ir1g3",
+      "earned": 13
+    },
+    {
+      "id": "imvl68aduh3fvo6",
+      "date": "2026-10-23T16:15:16.626Z",
+      "winner": "f008",
+      "loser": "f002",
+      "category": "Десерт",
+      "lane": "upper",
+      "tournament": "imvl63ta20ir1g3",
+      "earned": 13
+    },
+    {
+      "id": "imvlbggocbeprot",
+      "date": "2026-10-23T18:41:36.108Z",
+      "winner": "f003",
+      "loser": "f017",
+      "category": "Десерт",
+      "lane": "upper",
+      "tournament": "imvl63ta20ir1g3",
+      "earned": 13
+    },
+    {
+      "id": "imvlbgo4uexq0ml",
+      "date": "2026-10-23T18:41:45.774Z",
+      "winner": "f013",
+      "loser": "f009",
+      "category": "Десерт",
+      "lane": "upper",
+      "tournament": "imvl63ta20ir1g3",
+      "earned": 14
+    },
+    {
+      "id": "imvlbgrpsvy1uh4",
+      "date": "2026-10-23T18:41:50.416Z",
+      "winner": "f041",
+      "loser": "f020",
+      "category": "Десерт",
+      "lane": "upper",
+      "tournament": "imvl63ta20ir1g3",
+      "earned": 14
+    },
+    {
+      "id": "imvlbgzlyms2my4",
+      "date": "2026-10-23T18:42:00.646Z",
+      "winner": "f039",
+      "loser": "f021",
+      "category": "Десерт",
+      "lane": "upper",
+      "tournament": "imvl63ta20ir1g3",
+      "earned": 14
+    },
+    {
+      "id": "imvlbh6c9okhu5z",
+      "date": "2026-10-23T18:42:09.369Z",
+      "winner": "f024",
+      "loser": "f038",
+      "category": "Десерт",
+      "lane": "upper",
+      "tournament": "imvl63ta20ir1g3",
+      "earned": 14
+    },
+    {
+      "id": "imvlbhd1hfsa8mf",
+      "date": "2026-10-23T18:42:18.053Z",
+      "winner": "f037",
+      "loser": "f025",
+      "category": "Десерт",
+      "lane": "upper",
+      "tournament": "imvl63ta20ir1g3",
+      "earned": 14
+    },
+    {
+      "id": "imvlbhv7fe9tk0o",
+      "date": "2026-10-23T18:42:41.595Z",
+      "winner": "f036",
+      "loser": "f026",
+      "category": "Десерт",
+      "lane": "upper",
+      "tournament": "imvl63ta20ir1g3",
+      "earned": 14
+    },
+    {
+      "id": "imvlbijj0huvzw8",
+      "date": "2026-10-23T18:43:13.116Z",
+      "winner": "f031",
+      "loser": "f027",
+      "category": "Десерт",
+      "lane": "upper",
+      "tournament": "imvl63ta20ir1g3",
+      "earned": 14
+    },
+    {
+      "id": "imvlbisbhcfgmb1",
+      "date": "2026-10-23T18:43:24.509Z",
+      "winner": "f030",
+      "loser": "f028",
+      "category": "Десерт",
+      "lane": "upper",
+      "tournament": "imvl63ta20ir1g3",
+      "earned": 14
+    },
+    {
+      "id": "imvlbiytlm9xk1n",
+      "date": "2026-10-23T18:43:32.937Z",
+      "winner": "f011",
+      "loser": "f020",
+      "category": "Десерт",
+      "lane": "lower",
+      "tournament": "imvl63ta20ir1g3",
+      "earned": 14
+    },
+    {
+      "id": "imvlbj1wfxk6bqr",
+      "date": "2026-10-23T18:43:36.927Z",
+      "winner": "f021",
+      "loser": "f002",
+      "category": "Десерт",
+      "lane": "lower",
+      "tournament": "imvl63ta20ir1g3",
+      "earned": 14
+    },
+    {
+      "id": "imvlbjk7588qmjx",
+      "date": "2026-10-23T18:44:00.641Z",
+      "winner": "f015",
+      "loser": "f038",
+      "category": "Десерт",
+      "lane": "lower",
+      "tournament": "imvl63ta20ir1g3",
+      "earned": 14
+    },
+    {
+      "id": "imvlbjlyophc5w6",
+      "date": "2026-10-23T18:44:02.928Z",
+      "winner": "f025",
+      "loser": "f017",
+      "category": "Десерт",
+      "lane": "lower",
+      "tournament": "imvl63ta20ir1g3",
+      "earned": 14
+    },
+    {
+      "id": "imvlbjq2th03e3y",
+      "date": "2026-10-23T18:44:08.261Z",
+      "winner": "f009",
+      "loser": "f026",
+      "category": "Десерт",
+      "lane": "lower",
+      "tournament": "imvl63ta20ir1g3",
+      "earned": 14
+    },
+    {
+      "id": "imvlbju8dqg0rrd",
+      "date": "2026-10-23T18:44:13.645Z",
+      "winner": "f028",
+      "loser": "f027",
+      "category": "Десерт",
+      "lane": "lower",
+      "tournament": "imvl63ta20ir1g3",
+      "earned": 14
+    },
+    {
+      "id": "imvlbkqpq54gpcv",
+      "date": "2026-10-23T18:44:55.742Z",
+      "winner": "f041",
+      "loser": "imvl5epbdobsbfg",
+      "category": "Десерт",
+      "lane": "upper",
+      "tournament": "imvl63ta20ir1g3",
+      "earned": 14
+    },
+    {
+      "id": "imvlbla3f4bhjyw",
+      "date": "2026-10-23T18:45:20.859Z",
+      "winner": "f005",
+      "loser": "f030",
+      "category": "Десерт",
+      "lane": "upper",
+      "tournament": "imvl63ta20ir1g3",
+      "earned": 14
+    },
+    {
+      "id": "imvlblih9kof4j4",
+      "date": "2026-10-23T18:45:31.725Z",
+      "winner": "f008",
+      "loser": "f031",
+      "category": "Десерт",
+      "lane": "upper",
+      "tournament": "imvl63ta20ir1g3",
+      "earned": 14
+    },
+    {
+      "id": "imvlbllu31afay2",
+      "date": "2026-10-23T18:45:36.075Z",
+      "winner": "f003",
+      "loser": "f036",
+      "category": "Десерт",
+      "lane": "upper",
+      "tournament": "imvl63ta20ir1g3",
+      "earned": 14
+    },
+    {
+      "id": "imvlcbsl4de3pnj",
+      "date": "2026-10-23T19:05:57.880Z",
+      "winner": "f037",
+      "loser": "f013",
+      "category": "Десерт",
+      "lane": "upper",
+      "tournament": "imvl63ta20ir1g3",
+      "earned": 14
+    },
+    {
+      "id": "imvlcbz8hw56tao",
+      "date": "2026-10-23T19:06:06.497Z",
+      "winner": "f024",
+      "loser": "f039",
+      "category": "Десерт",
+      "lane": "upper",
+      "tournament": "imvl63ta20ir1g3",
+      "earned": 14
+    },
+    {
+      "id": "imvlcc7ccg91vmu",
+      "date": "2026-10-23T19:06:17.004Z",
+      "winner": "imvl5epbdobsbfg",
+      "loser": "f011",
+      "category": "Десерт",
+      "lane": "lower",
+      "tournament": "imvl63ta20ir1g3",
+      "earned": 13
+    },
+    {
+      "id": "imvlccf3a6dp0pe",
+      "date": "2026-10-23T19:06:27.046Z",
+      "winner": "f013",
+      "loser": "f015",
+      "category": "Десерт",
+      "lane": "lower",
+      "tournament": "imvl63ta20ir1g3",
+      "earned": 14
+    },
+    {
+      "id": "imvlcg5mdzucaop",
+      "date": "2026-10-23T19:09:21.397Z",
+      "winner": "f009",
+      "loser": "f028",
+      "category": "Десерт",
+      "lane": "lower",
+      "tournament": "imvl63ta20ir1g3",
+      "earned": 14
+    },
+    {
+      "id": "imvlcgc6u1jc9du",
+      "date": "2026-10-23T19:09:29.910Z",
+      "winner": "f039",
+      "loser": "f021",
+      "category": "Десерт",
+      "lane": "lower",
+      "tournament": "imvl63ta20ir1g3",
+      "earned": 14
+    },
+    {
+      "id": "imvlcgdpmbj7hx9",
+      "date": "2026-10-23T19:09:31.882Z",
+      "winner": "f036",
+      "loser": "f025",
+      "category": "Десерт",
+      "lane": "lower",
+      "tournament": "imvl63ta20ir1g3",
+      "earned": 14
+    },
+    {
+      "id": "imvlcgmrnq6czhc",
+      "date": "2026-10-23T19:09:43.619Z",
+      "winner": "f031",
+      "loser": "f030",
+      "category": "Десерт",
+      "lane": "lower",
+      "tournament": "imvl63ta20ir1g3",
+      "earned": 14
+    },
+    {
+      "id": "imvlchvhlawp0xt",
+      "date": "2026-10-23T19:10:41.577Z",
+      "winner": "f037",
+      "loser": "f008",
+      "category": "Десерт",
+      "lane": "upper",
+      "tournament": "imvl63ta20ir1g3",
+      "earned": 14
+    },
+    {
+      "id": "imvlchyrb6mc6df",
+      "date": "2026-10-23T19:10:45.815Z",
+      "winner": "f024",
+      "loser": "imvl5ky9r4y259n",
+      "category": "Десерт",
+      "lane": "upper",
+      "tournament": "imvl63ta20ir1g3",
+      "earned": 14
+    },
+    {
+      "id": "imvlci5zhr804pc",
+      "date": "2026-10-23T19:10:55.181Z",
+      "winner": "f003",
+      "loser": "f041",
+      "category": "Десерт",
+      "lane": "upper",
+      "tournament": "imvl63ta20ir1g3",
+      "earned": 14
+    },
+    {
+      "id": "imvlckyvf9hkr5b",
+      "date": "2026-10-23T19:13:05.931Z",
+      "winner": "imvl5epbdobsbfg",
+      "loser": "f009",
+      "category": "Десерт",
+      "lane": "lower",
+      "tournament": "imvl63ta20ir1g3",
+      "earned": 13
+    },
+    {
+      "id": "imvlcl4cbx5qyof",
+      "date": "2026-10-23T19:13:13.019Z",
+      "winner": "f031",
+      "loser": "imvl5ky9r4y259n",
+      "category": "Десерт",
+      "lane": "lower",
+      "tournament": "imvl63ta20ir1g3",
+      "earned": 14
+    },
+    {
+      "id": "imvlcl6d71yi0bo",
+      "date": "2026-10-23T19:13:15.643Z",
+      "winner": "f013",
+      "loser": "f036",
+      "category": "Десерт",
+      "lane": "lower",
+      "tournament": "imvl63ta20ir1g3",
+      "earned": 14
+    },
+    {
+      "id": "imvlcl85yfp519w",
+      "date": "2026-10-23T19:13:17.974Z",
+      "winner": "f041",
+      "loser": "f039",
+      "category": "Десерт",
+      "lane": "lower",
+      "tournament": "imvl63ta20ir1g3",
+      "earned": 14
+    },
+    {
+      "id": "imvlclfjegil2f5",
+      "date": "2026-10-23T19:13:27.530Z",
+      "winner": "f024",
+      "loser": "f003",
+      "category": "Десерт",
+      "lane": "upper",
+      "tournament": "imvl63ta20ir1g3",
+      "earned": 14
+    },
+    {
+      "id": "imvlcllknsmirjn",
+      "date": "2026-10-23T19:13:35.351Z",
+      "winner": "f005",
+      "loser": "f037",
+      "category": "Десерт",
+      "lane": "upper",
+      "tournament": "imvl63ta20ir1g3",
+      "earned": 14
+    },
+    {
+      "id": "imvlcm1g3657yho",
+      "date": "2026-10-23T19:13:55.923Z",
+      "winner": "imvl5epbdobsbfg",
+      "loser": "f031",
+      "category": "Десерт",
+      "lane": "lower",
+      "tournament": "imvl63ta20ir1g3",
+      "earned": 14
+    },
+    {
+      "id": "imvlcmd6z8lr3dr",
+      "date": "2026-10-23T19:14:11.147Z",
+      "winner": "f037",
+      "loser": "f008",
+      "category": "Десерт",
+      "lane": "lower",
+      "tournament": "imvl63ta20ir1g3",
+      "earned": 14
+    },
+    {
+      "id": "imvlcmfezgdch3b",
+      "date": "2026-10-23T19:14:14.027Z",
+      "winner": "f013",
+      "loser": "f041",
+      "category": "Десерт",
+      "lane": "lower",
+      "tournament": "imvl63ta20ir1g3",
+      "earned": 14
+    },
+    {
+      "id": "imvlcmkw95qxaae",
+      "date": "2026-10-23T19:14:21.129Z",
+      "winner": "f005",
+      "loser": "f024",
+      "category": "Десерт",
+      "lane": "upper",
+      "tournament": "imvl63ta20ir1g3",
+      "earned": 14
+    },
+    {
+      "id": "imvlcmnzi6kz1ii",
+      "date": "2026-10-23T19:14:25.134Z",
+      "winner": "f003",
+      "loser": "imvl5epbdobsbfg",
+      "category": "Десерт",
+      "lane": "lower",
+      "tournament": "imvl63ta20ir1g3",
+      "earned": 14
+    },
+    {
+      "id": "imvld482tly7vgi",
+      "date": "2026-10-23T19:28:04.325Z",
+      "winner": "f024",
+      "loser": "f013",
+      "category": "Десерт",
+      "lane": "lower",
+      "tournament": "imvl63ta20ir1g3",
+      "earned": 14
+    },
+    {
+      "id": "imvld4b8jk5aea6",
+      "date": "2026-10-23T19:28:08.419Z",
+      "winner": "f037",
+      "loser": "f003",
+      "category": "Десерт",
+      "lane": "lower",
+      "tournament": "imvl63ta20ir1g3",
+      "earned": 14
+    },
+    {
+      "id": "imvld4kyxaur1xb",
+      "date": "2026-10-23T19:28:21.033Z",
+      "winner": "f024",
+      "loser": "f037",
+      "category": "Десерт",
+      "lane": "lower",
+      "tournament": "imvl63ta20ir1g3",
+      "earned": 14
+    },
+    {
+      "id": "imvld4n7yhw16xm",
+      "date": "2026-10-23T19:28:23.950Z",
+      "winner": "f005",
+      "loser": "f024",
+      "category": "Десерт",
+      "lane": "final",
+      "tournament": "imvl63ta20ir1g3",
+      "earned": 14
+    }
+  ],
+  "tournaments": {
+    "Перше": {
+      "id": "imvl37knr4ixjnf",
+      "category": "Перше",
+      "contestants": [
+        "f016",
+        "f040"
+      ],
+      "upper": [
+        "f040"
+      ],
+      "lower": [
+        "f016"
+      ],
+      "eliminated": [
+        "f016"
+      ],
+      "round": 1,
+      "phase": "lower",
+      "current": null,
+      "queue": [],
+      "byes": {},
+      "losses": {
+        "f016": 2,
+        "f040": 0
+      },
+      "matches": 2,
+      "finished": true,
+      "champion": "f040",
+      "reset": false
+    },
+    "Друге": {
+      "id": "imvl61sg3mk7vk7",
+      "category": "Друге",
+      "contestants": [
+        "f001",
+        "f004",
+        "f006",
+        "f007",
+        "f010",
+        "f012",
+        "f014",
+        "f019",
+        "f022",
+        "f023",
+        "f029",
+        "f032",
+        "f033",
+        "f034",
+        "f035"
+      ],
+      "upper": [
+        "f001"
+      ],
+      "lower": [],
+      "eliminated": [],
+      "round": 1,
+      "phase": "lower",
+      "current": {
+        "a": "f007",
+        "b": "f035",
+        "lane": "upper",
+        "round": 1
+      },
+      "queue": [
+        {
+          "a": "f029",
+          "b": "f004",
+          "lane": "upper",
+          "round": 1
+        },
+        {
+          "a": "f023",
+          "b": "f012",
+          "lane": "upper",
+          "round": 1
+        },
+        {
+          "a": "f014",
+          "b": "f019",
+          "lane": "upper",
+          "round": 1
+        },
+        {
+          "a": "f034",
+          "b": "f033",
+          "lane": "upper",
+          "round": 1
+        },
+        {
+          "a": "f010",
+          "b": "f022",
+          "lane": "upper",
+          "round": 1
+        },
+        {
+          "a": "f032",
+          "b": "f006",
+          "lane": "upper",
+          "round": 1
+        }
+      ],
+      "byes": {
+        "f001": 1
+      },
+      "losses": {
+        "f001": 0,
+        "f004": 0,
+        "f006": 0,
+        "f007": 0,
+        "f010": 0,
+        "f012": 0,
+        "f014": 0,
+        "f019": 0,
+        "f022": 0,
+        "f023": 0,
+        "f029": 0,
+        "f032": 0,
+        "f033": 0,
+        "f034": 0,
+        "f035": 0
+      },
+      "matches": 0,
+      "finished": false,
+      "champion": null,
+      "reset": false
+    },
+    "Десерт": {
+      "id": "imvl63ta20ir1g3",
+      "category": "Десерт",
+      "contestants": [
+        "f002",
+        "f003",
+        "f005",
+        "f008",
+        "f009",
+        "f011",
+        "f013",
+        "f015",
+        "f017",
+        "f020",
+        "f021",
+        "f024",
+        "f025",
+        "f026",
+        "f027",
+        "f028",
+        "f030",
+        "f031",
+        "f036",
+        "f037",
+        "f038",
+        "f039",
+        "f041",
+        "imvl5epbdobsbfg",
+        "imvl5ky9r4y259n"
+      ],
+      "upper": [
+        "f005"
+      ],
+      "lower": [
+        "f024"
+      ],
+      "eliminated": [
+        "f020",
+        "f002",
+        "f038",
+        "f017",
+        "f026",
+        "f027",
+        "f011",
+        "f015",
+        "f028",
+        "f021",
+        "f025",
+        "f030",
+        "f009",
+        "imvl5ky9r4y259n",
+        "f036",
+        "f039",
+        "f031",
+        "f008",
+        "f041",
+        "imvl5epbdobsbfg",
+        "f013",
+        "f003",
+        "f037",
+        "f024"
+      ],
+      "round": 12,
+      "phase": "upper",
+      "current": null,
+      "queue": [],
+      "byes": {
+        "imvl5epbdobsbfg": 1,
+        "imvl5ky9r4y259n": 1,
+        "f005": 1,
+        "f008": 1,
+        "f003": 1,
+        "f037": 1,
+        "f024": 1
+      },
+      "losses": {
+        "f002": 2,
+        "f003": 2,
+        "f005": 0,
+        "f008": 2,
+        "f009": 2,
+        "f011": 2,
+        "f013": 2,
+        "f015": 2,
+        "f017": 2,
+        "f020": 2,
+        "f021": 2,
+        "f024": 2,
+        "f025": 2,
+        "f026": 2,
+        "f027": 2,
+        "f028": 2,
+        "f030": 2,
+        "f031": 2,
+        "f036": 2,
+        "f037": 2,
+        "f038": 2,
+        "f039": 2,
+        "f041": 2,
+        "imvl5epbdobsbfg": 2,
+        "imvl5ky9r4y259n": 2
+      },
+      "matches": 48,
+      "finished": true,
+      "champion": "f005",
+      "reset": false
+    }
+  },
+  "champions": [
+    {
+      "tournament": "imvkynv441nszmq",
+      "category": "Перше",
+      "winner": "f016",
+      "date": "2026-10-23T12:44:50.334Z",
+      "matches": 2
+    },
+    {
+      "tournament": "imvkyqkxf9r9l47",
+      "category": "Друге",
+      "winner": "f001",
+      "date": "2026-10-23T12:55:18.571Z",
+      "matches": 28
+    },
+    {
+      "tournament": "imvl37knr4ixjnf",
+      "category": "Перше",
+      "winner": "f040",
+      "date": "2026-10-23T16:10:03.881Z",
+      "matches": 2
+    },
+    {
+      "tournament": "imvl63ta20ir1g3",
+      "category": "Десерт",
+      "winner": "f005",
+      "date": "2026-10-23T19:28:23.950Z",
+      "matches": 48
+    }
+  ],
+  "freePairs": {
+    "Десерт": {
+      "a": "f031",
+      "b": "f030",
+      "lane": "league"
+    }
+  },
+  "calibrations": {
+    "imvl4idx8vwh5ej": {
+      "mode": "auto",
+      "scope": "same",
+      "target": 10,
+      "opponent": null,
+      "finished": true,
+      "reason": "limit",
+      "startedAt": "2026-10-23T15:27:08.540Z"
+    },
+    "imvl5epbdobsbfg": {
+      "mode": "auto",
+      "scope": "same",
+      "target": 10,
+      "opponent": null,
+      "finished": true,
+      "reason": "limit",
+      "startedAt": "2026-10-23T15:52:16.298Z"
+    },
+    "imvl5ky9r4y259n": {
+      "mode": "auto",
+      "scope": "same",
+      "target": 10,
+      "opponent": null,
+      "finished": true,
+      "reason": "limit",
+      "startedAt": "2026-10-23T15:57:07.840Z"
+    }
+  },
   "undo": null
 }
