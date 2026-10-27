@@ -1,10 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#19292a"/><stop offset="1" stop-color="#0d171d"/></linearGradient><linearGradient id="a" x1="0" x2="1" y2="1"><stop stop-color="#f4d49f"/><stop offset="1" stop-color="#ae8150"/></linearGradient></defs>
-<rect width="64" height="64" rx="16" fill="url(#g)"/>
-<rect x="3" y="3" width="58" height="58" rx="14" fill="none" stroke="#f3c88c" stroke-opacity=".25"/>
-<circle cx="32" cy="32" r="20" fill="none" stroke="url(#a)" stroke-width="2.1"/>
-<circle cx="32" cy="32" r="14.7" fill="none" stroke="#e6bc7e" stroke-opacity=".4" stroke-width="1"/>
-<path d="M25 19v11m-3-11v11m6-11v11m-6 0h6m-3 0v16" fill="none" stroke="#e1c399" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"/>
-<ellipse cx="40" cy="25" rx="4.2" ry="7.2" fill="none" stroke="#e1c399" stroke-width="2.1"/><path d="M40 32v14" stroke="#e1c399" stroke-width="2.1" stroke-linecap="round"/>
-<path d="m32 6 1.1 2.9L36 10l-2.9 1.1L32 14l-1.1-2.9L28 10l2.9-1.1z" fill="#e8be83"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+<title id="title">Смакова ліга — кухар</title>
+<desc id="desc">Помаранчевий силует обличчя без рис, білий кухарський ковпак на темно-зеленому тлі.</desc>
+<!-- Rounded icon field -->
+<rect x="4" y="4" width="248" height="248" rx="52" fill="#17291f"/>
+<!-- Head, deliberately no eyes, nose, mouth, or ears -->
+<path d="M80 141h96v49c0 30-21 48-48 48s-48-18-48-48v-49Z" fill="#f28b4b"/>
+<!-- Cloud-like three-lobed chef hat, proportioned to the reference sketch -->
+<path d="M70 144 C42 143 24 123 24 100 C24 76 44 58 66 58 C78 58 89 62 101 73 C107 45 126 27 150 28 C176 29 194 47 199 69 C210 62 221 62 231 66 C247 73 248 92 245 106 C241 128 225 141 199 143 Z" fill="#fff8ec"/>
+<!-- Cap band; wide enough to be legible at favicon sizes -->
+<path d="M76 128c27 2 77 2 104 0l2 42c-30 5-77 5-108 0l2-42Z" fill="#fffdf5"/>
+<!-- Broad, restrained warm edge separating hat from head -->
+<path d="M79 168c28 4 71 4 99 0" fill="none" stroke="#e5d1af" stroke-width="4" stroke-linecap="round"/>
 </svg>
