@@ -1,0 +1,12 @@
+name = "smakova-liha-sync"
+main = "src/index.js"
+compatibility_date = "2026-10-01"
+
+[vars]
+GITHUB_OWNER = "zbys1av"
+GITHUB_REPO = "smakova-liha"
+GITHUB_BRANCH = "main"
+GOOGLE_CLIENT_ID = "337139173285-uh3rdtn6ou7mjodi5stgc966f89cbtak.apps.googleusercontent.com"
+ALLOWED_ORIGIN = "https://zbys1av.github.io"
+
+# GitHub token must be stored as Worker secret: npx wrangler secret put GITHUB_TOKEN
