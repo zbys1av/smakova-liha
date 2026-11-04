@@ -65,7 +65,7 @@ function refreshRatingEditor(form){
 function handleRatingClick(e){const form=e.target.closest('#dishForm');if(!form)return false;
  const choice=e.target.closest('[data-rating-field]'),origin=e.target.closest('[data-rating-origin]'),clear=e.target.closest('[data-rating-clear]');
  if(choice){const field=form.querySelector('#'+choice.dataset.ratingField);field.value=field.value===choice.dataset.ratingValue?'':choice.dataset.ratingValue;form.querySelectorAll('[data-rating-field="'+choice.dataset.ratingField+'"]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.ratingValue===field.value)))}
- else if(origin){form.querySelector('#rating-origin').value=origin.dataset.ratingOrigin;form.querySelectorAll('[data-rating-origin]').forEach(b=>b.setAttribute('aria-pressed',String(b===origin)));form.querySelectorAll('[data-rating-pane]').forEach(p=>p.hidden=p.dataset.ratingPane!==origin.dataset.ratingOrigin);const venue=form.querySelector('#ratingVenueFields');if(venue)venue.hidden=origin.dataset.ratingOrigin!=='restaurant'}
+ else if(origin){form.querySelector('#rating-origin').value=origin.dataset.ratingOrigin;form.querySelectorAll('[data-rating-origin]').forEach(b=>b.setAttribute('aria-pressed',String(b===origin)));form.querySelectorAll('[data-rating-pane]').forEach(p=>p.hidden=p.dataset.ratingPane!==origin.dataset.ratingOrigin);const venue=form.querySelector('#ratingVenueFields');if(venue)venue.hidden=origin.dataset.ratingOrigin!=='restaurant';refreshRecipeChangesHint(form)}
  else if(clear){form.querySelector('#rating-taste').value='';form.querySelector('#tasteSlider').value='5.5'}else return false;
  refreshRatingEditor(form);return true;
 }
