@@ -1,0 +1,10 @@
+// Location is stored separately from cuisine country; older unstructured addresses are not guessed.
+const geoState={catalog:{cuisine:'all',country:'all',city:'all'},ranking:{cuisine:'all',country:'all',city:'all'}};
+function geoKey(v){return String(v||'').trim().toLocaleLowerCase()}
+function geoValues(dishes,field){const found=new Map();for(const d of dishes){const value=String(d[field]||'').trim(),key=geoKey(value);if(key&&!found.has(key))found.set(key,value)}return [...found.entries()].sort((a,b)=>a[1].localeCompare(b[1],window.SMAKOVA_UI.getLang?.()==='en'?'en':'uk'))}
+function geoMatches(d,scope){const f=geoState[scope];return (f.cuisine==='all'||d.cuisineCountry===f.cuisine)&&(f.country==='all'||geoKey(d.venueCountry)===f.country)&&(f.city==='all'||geoKey(d.venueCity)===f.city)}
+function geoControls(dishes,scope){const f=geoState[scope],c=collectionText,codes=[...new Set(dishes.map(d=>d.cuisineCountry).filter(Boolean))].sort((a,b)=>countryName(a).localeCompare(countryName(b))),countries=geoValues(dishes,'venueCountry'),cities=geoValues(dishes,'venueCity');
+ for(const [key,valid] of [['cuisine',codes],['country',countries.map(x=>x[0])],['city',cities.map(x=>x[0])]])if(f[key]!=='all'&&!valid.includes(f[key]))f[key]='all';
+ const select=(key,label,entries)=>`<select class="select" data-geo-scope="${scope}" data-geo-key="${key}" aria-label="${esc(label)}"><option value="all">${esc(label)}</option>${entries.map(([v,t])=>`<option value="${esc(v)}" ${f[key]===v?'selected':''}>${esc(t)}</option>`).join('')}</select>`;
+ return `<div class="geo-filters" data-no-translate>${select('cuisine',c('Усі країни кухні','All cuisine countries'),codes.map(code=>[code,countryName(code)||code]))}${select('country',c('Усі країни закладу','All venue countries'),countries)}${select('city',c('Усі міста','All cities'),cities)}</div>`}
+document.addEventListener('change',e=>{const el=e.target;if(!el.dataset?.geoScope)return;geoState[el.dataset.geoScope][el.dataset.geoKey]=el.value;render();if(el.dataset.geoScope==='ranking'){const details=document.querySelector('.unified-filters');if(details)details.open=true}});

@@ -1,0 +1,11 @@
+/* The first grid column reserves only the width occupied by the sidebar. */
+.shell{--content-rail:var(--side-rail);display:grid;grid-template-columns:var(--content-rail) minmax(0,1fr);min-height:100vh;transition:grid-template-columns var(--motion-fast) var(--motion-ease)}
+html[data-sidebar="pinned"] .shell{--content-rail:var(--side-open)}
+html[data-sidebar="hidden"] .shell{--content-rail:0px}
+.shell>.main,html[data-sidebar="pinned"] .shell>.main,html[data-sidebar="hidden"] .shell>.main{grid-column:2;width:100%;min-width:0;max-width:none;margin:0;padding:30px clamp(20px,4vw,66px) 60px;transition:none}
+/* Hover and temporary edge reveal are overlays: neither changes --content-rail. */
+@media(max-width:730px),(hover:none),(pointer:coarse){
+ .shell,html[data-sidebar="pinned"] .shell,html[data-sidebar="hidden"] .shell{--content-rail:0px}
+ .shell>.main,html[data-sidebar="pinned"] .shell>.main,html[data-sidebar="hidden"] .shell>.main{padding:18px 14px 50px}
+}
+@media(prefers-reduced-motion:reduce){.shell{transition:none!important}}
