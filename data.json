@@ -2426,19 +2426,38 @@
         "id": "imw1yotntqjsvsv",
         "name": "Тако з куркою",
         "description": "КУРКА , ГУАКАМОЛЕ  ТА СОУС СОЛОДКИЙ ЧИЛІ",
-        "taste": "Пікантне, Овочеве",
+        "taste": "Пікантне, Овочеве, Гостре",
         "category": "Друге",
         "type": "М’ясна страва",
         "tasteTags": [
           "Пікантне",
           "Овочеве"
         ],
-        "tasteCustom": "",
+        "tasteCustom": "Гостре",
         "cuisineCountry": "MX",
         "venueName": "Que Pasa LEM",
-        "venueAddress": "вул. Дмитра Вітовського, 57, Львів",
+        "venueAddress": "",
         "oldRating": null,
-        "oldAux": null
+        "oldAux": null,
+        "assessment": {
+          "taste": 7.5,
+          "origin": "restaurant",
+          "home": {
+            "cost": null,
+            "difficulty": null,
+            "time": null,
+            "again": null
+          },
+          "restaurant": {
+            "portion": "small",
+            "value": "poor",
+            "again": "maybe",
+            "price": 250
+          }
+        },
+        "venueCountry": "Україна",
+        "venueCity": "Львів",
+        "venueStreet": "вул. Дмитра Вітовського, 57"
       }
     ],
     "history": [],
