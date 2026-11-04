@@ -107,6 +107,29 @@ const words={
 'Запропоновано іншу пару.':'Another pairing is ready.',
 'Остання версія локально':'Latest local version',
 };
+Object.assign(words,{
+  "Домашня": "Home",
+  "Ресторанна": "Dining out",
+  "Домашня їжа": "Home cooking",
+  "Ресторанна їжа": "Dining out",
+  "Розділ їжі": "Food section",
+  "Заклад": "Venue",
+  "Назва закладу *": "Venue name *",
+  "Адреса закладу *": "Venue address *",
+  "Наприклад, Кав’ярня на розі": "For example, Corner café",
+  "Місто, вулиця, будинок": "City, street, building",
+  "Страва, заклад або адреса...": "Dish, venue or address...",
+  "НОВІ СМАКОВІ ВІДКРИТТЯ": "NEW FOOD DISCOVERIES",
+  "Улюблені страви улюблених закладів.": "Favorite dishes from favorite places.",
+  "Додайте першу страву, назву закладу та адресу. Порівнюйте смаки й збирайте власний ресторанний рейтинг.": "Add your first dish, venue name and address. Compare flavors and build your dining-out rankings.",
+  "+ Додати ресторанну страву": "+ Add a restaurant dish",
+  "ЗАКЛАДИ ТА СМАКИ": "PLACES AND FLAVORS",
+  "Страви з ресторанів, кав’ярень та інших закладів — з адресами, нотатками й власним рейтингом.": "Dishes from restaurants, cafés and other places, with addresses, notes and your own rankings.",
+  "Очистити ресторанний розділ": "Reset dining-out section",
+  "Скинути домашній розділ та відновити 42 страви": "Reset home section and restore 42 dishes",
+  "JSON-копія та GitHub зберігають обидва розділи разом. CSV містить рейтинг поточного розділу.": "JSON backups and GitHub save both sections together. CSV exports the current section’s rankings."
+});
+Object.assign(words,{'Назва закладу':'Venue name','Адреса закладу':'Venue address','Країна кухні':'Cuisine country'});
 const dynamic=[
  [/^(\d+) двобоїв у постійній історії\.$/,'$1 duels in permanent history.'],
  [/^(\d+) двобоїв$/,'$1 duels'],[/^(\d+) перемог$/,'$1 wins'],[/^(\d+) поразок$/,'$1 losses'],
@@ -130,7 +153,7 @@ function controls(){return `<div class="ui-preferences" role="group" aria-label=
 <button type="button" class="ui-pref" data-ui-theme="toggle" title="${theme==='dark'?'Світла тема / Light theme':'Темна тема / Dark theme'}" aria-label="${theme==='dark'?'Switch to light theme':'Switch to dark theme'}"><svg class="mini-icon" viewBox="0 0 24 24" aria-hidden="true">${theme==='dark'?'<circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.9 4.9l1.4 1.4m11.4 11.4 1.4 1.4M2 12h2m16 0h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/>':'<path d="M20.6 14.6A9 9 0 0 1 9.4 3.4a9 9 0 1 0 11.2 11.2Z"/>'}</svg></button></div>`}
 function apply(){
  const html=document.documentElement;html.lang=lang;html.dataset.theme=theme;
- document.querySelector('meta[name="theme-color"]')?.setAttribute('content',theme==='dark'?'#11170f':'#f6f3ec');
+ document.querySelector('meta[name="theme-color"]')?.setAttribute('content',html.dataset.foodMode==='restaurant'?(theme==='dark'?'#1a1515':'#f6f1ed'):(theme==='dark'?'#11170f':'#f6f3ec'));
  document.title=lang==='en'?'Taste League — Dish Duels':'Смакова ліга — дуелі страв';
  if(lang!=='en')return;
  const root=document.getElementById('app');if(!root)return;

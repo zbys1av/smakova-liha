@@ -1,4 +1,5 @@
-function validData(d){return !!d&&d.version===1&&Array.isArray(d.dishes)&&Array.isArray(d.history)&&d.tournaments&&typeof d.tournaments==='object'&&!Array.isArray(d.tournaments)&&Array.isArray(d.champions)&&d.freePairs&&typeof d.freePairs==='object'&&d.dishes.length<10000&&d.history.length<200000&&d.dishes.every(x=>typeof x.id==='string'&&typeof x.name==='string'&&typeof x.category==='string');}
+function validLeague(d){return !!d&&d.version===1&&Array.isArray(d.dishes)&&Array.isArray(d.history)&&d.tournaments&&typeof d.tournaments==='object'&&!Array.isArray(d.tournaments)&&Array.isArray(d.champions)&&d.freePairs&&typeof d.freePairs==='object'&&d.dishes.length<10000&&d.history.length<200000&&d.dishes.every(x=>x&&typeof x.id==='string'&&typeof x.name==='string'&&typeof x.category==='string'&&(x.venueName===undefined||typeof x.venueName==='string')&&(x.venueAddress===undefined||typeof x.venueAddress==='string'));}
+function validData(d){return validLeague(d)&&(d.restaurant===undefined||(validLeague(d.restaurant)&&d.restaurant.restaurant===undefined));}
 // MEDIA / LOG secure GitHub JSON sync — Cloudflare Worker (ES module).
 // Never place GITHUB_TOKEN in frontend files or [vars].
 const OWNER_EMAIL = 'zbyslav13@gmail.com';

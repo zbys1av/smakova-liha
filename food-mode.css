@@ -1,0 +1,57 @@
+/* Two independent leagues, with a quiet change of atmosphere. */
+.brand{display:grid;grid-template-columns:50px minmax(0,1fr);align-items:center;gap:14px 10px;padding:2px 3px 8px}
+.brand .brand-mark{margin:0;flex:none}
+.brand-title{font-size:20px}
+.brand-sub{letter-spacing:1.1px;font-size:9px}
+.food-switcher{grid-column:1/-1;display:flex;gap:4px;padding:4px;border:1px solid var(--line);border-radius:12px;background:var(--cream)}
+.food-switcher button{flex:1;min-width:0;min-height:40px;padding:8px 5px;border:0;border-radius:8px;background:transparent;color:var(--muted);font-size:11px;font-weight:750;transition:background .18s,color .18s,box-shadow .18s}
+.food-switcher button span{font-size:16px;vertical-align:-1px;margin-right:3px}
+.food-switcher button[aria-pressed="true"]{background:var(--mint);color:var(--green);box-shadow:0 1px 5px #00000012}
+.food-switcher button:hover{color:var(--ink)}
+.section-label{font-weight:700;color:var(--green)}
+.venue-info{display:flex;flex-direction:column;gap:3px;font-size:11px;line-height:1.5;margin:3px 0 12px;overflow-wrap:anywhere;min-width:0;color:var(--muted)}
+.venue-info strong{color:var(--green);font-weight:750}
+.venue-info span{font-size:10px}
+.fighter .venue-info{text-align:center}
+.leader-data .venue-info,.data-table .venue-info{margin:5px 0}
+.venue-fields{min-width:0;padding:16px 15px 0;margin:0 0 18px;border:1px solid var(--line);border-radius:12px;background:var(--cream)}
+.venue-fields legend{font-size:11px;font-weight:800;color:var(--green);padding:0 6px}
+.form-section-label{font-size:10px;font-weight:800;letter-spacing:1px;text-transform:uppercase;color:var(--green);margin-bottom:18px}
+.restaurant-welcome{margin-bottom:20px;border-left:3px solid var(--amber)}
+.restaurant-welcome h2{font-size:24px;letter-spacing:-.7px;margin:0 0 10px}
+.restaurant-welcome p{color:var(--muted);font-size:12px;line-height:1.7;max-width:580px;margin:0 0 20px}
+html[data-food-mode="restaurant"]{--cream:#f6f1ed;--paper:#fffaf6;--ink:#342c2a;--muted:#82716c;--line:#e6dcd6;--green:#87594f;--green2:#70483f;--mint:#efe0d9;--amber:#a87549;--peach:#f5e9de;--shadow:0 15px 50px rgba(70,40,30,.045)}
+html[data-food-mode="restaurant"] .sidebar{background:#fcf8f4}
+html[data-food-mode="restaurant"] .brand-mark{box-shadow:0 0 0 3px var(--mint)}
+html[data-food-mode="restaurant"] .nav-button.active{background:var(--mint);color:var(--green);box-shadow:inset 3px 0 0 var(--amber)}
+html[data-food-mode="restaurant"] .nav-button:hover{background:var(--mint);color:var(--green)}
+html[data-food-mode="restaurant"] :is(.pill,.pill-tag,.card-cat,.live-badge,.fighter-tag,.button.tinted){background:var(--mint);color:var(--green);border-color:var(--line)}
+html[data-food-mode="restaurant"] :is(.arena-wrap,.cloud-panel){background:linear-gradient(140deg,var(--paper),var(--cream));border-color:var(--line)}
+html[data-food-mode="restaurant"] .arena-wrap:before,html[data-food-mode="restaurant"] .arena-wrap:after{border-color:#b8877140}
+html[data-food-mode="restaurant"] :is(.cat-tile:hover,.fighter:hover){border-color:var(--amber);background:var(--paper)}
+html[data-food-mode="restaurant"] :is(.cat-track>span,.winbar>span){background:var(--green)}
+html[data-food-mode="restaurant"] .taste-chip.selected{background:var(--green);border-color:var(--green);color:var(--paper)}
+html[data-food-mode="restaurant"][data-theme="dark"]{--cream:#1a1515;--paper:#2a2220;--ink:#f2e9dd;--muted:#bfb0a6;--line:#4b3c36;--green:#d6b3a0;--green2:#e8c6b3;--mint:#44322b;--amber:#ddb580;--peach:#433326;background:#1a1515}
+html[data-food-mode="restaurant"][data-theme="dark"] body{background:radial-gradient(ellipse 75vw 45vw at 96% -16%,#9d684619,transparent 75%),linear-gradient(#211919,#1a1515)}
+html[data-food-mode="restaurant"][data-theme="dark"] .sidebar{background:linear-gradient(168deg,#2b211e,#201918)}
+html[data-food-mode="restaurant"][data-theme="dark"] :is(.tile,.panel,.dish-card,.backup-block,.bracket-lane,.tip,.mini-stat,.cat-tile,.fighter){background:linear-gradient(156deg,#302622,#28201f);border-color:var(--line)}
+html[data-food-mode="restaurant"][data-theme="dark"] :is(.brand-sub,.cat-letter,.arena-heading){color:var(--amber)}
+html[data-food-mode="restaurant"][data-theme="dark"] :is(.nav-button,.breadcrumbs,.nav-label,.side-footer,.tile-foot,.fighter-desc,.data-table th,.taste-preview,.dish-type){color:var(--muted)}
+html[data-food-mode="restaurant"][data-theme="dark"] :is(.select,.search,.field input,.field select,.field textarea,option){background:#211b19;border-color:#675047;color:var(--ink)}
+html[data-food-mode="restaurant"][data-theme="dark"] :is(input,textarea)::placeholder{color:#b5a297}
+html[data-food-mode="restaurant"][data-theme="dark"] :is(.leader-row,.fighter-foot,.entry,.data-table td,.dish-card-foot,.history-line){border-color:var(--line)}
+html[data-food-mode="restaurant"][data-theme="dark"] :is(.modal,.taste-chip,.tabs,.formula,.cloud-status,.vs,.place){background:var(--paper);border-color:var(--line);color:var(--ink)}
+html[data-food-mode="restaurant"][data-theme="dark"] :is(.button.secondary,.tab.selected){background:#49372f;color:var(--ink);border-color:#705548}
+html[data-food-mode="restaurant"][data-theme="dark"] :is(.button.primary,.fighter-vote){background:linear-gradient(135deg,#e3bc94,#ca9472);border-color:#d9a37b;color:#2e1c16;box-shadow:0 6px 18px #a5663214}
+html[data-food-mode="restaurant"][data-theme="dark"] :is(.button.primary:hover,.fighter-vote:hover){background:linear-gradient(135deg,#f1cba4,#daa280);color:#2e1c16}
+html[data-food-mode="restaurant"][data-theme="dark"] .empty{background:#211a1840;border-color:#6c5349}
+html[data-food-mode="restaurant"][data-theme="dark"] :is(.cat-track,.progress-bar,.winbar){background:var(--line)}
+@media(max-width:1120px) and (min-width:731px){.brand{grid-template-columns:40px minmax(0,1fr)}.brand .brand-mark{width:40px;height:40px}.brand-title{font-size:17px}.food-switcher button{font-size:10px}}
+@media(max-width:730px){.brand{grid-template-columns:36px minmax(0,1fr) auto;gap:10px;padding:0}.brand-title{font-size:17px}.food-switcher{grid-column:auto;max-width:238px}.food-switcher button{padding:7px 9px;font-size:11px}.food-switcher button span{display:none}}
+@media(max-width:460px){.brand{grid-template-columns:36px minmax(0,1fr)}.food-switcher{grid-column:1/-1;max-width:none}.food-switcher button{min-height:42px}.food-switcher button span{display:inline}.restaurant-welcome h2{font-size:21px}}
+
+.food-switcher svg{width:15px;height:15px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;vertical-align:-2px}
+
+.cuisine-flag{display:inline-flex;width:21px;height:14px;vertical-align:middle;border-radius:3px;overflow:hidden;box-shadow:0 0 0 1px #8885;margin-left:3px;flex:none}.cuisine-flag svg{width:100%;height:100%;display:block}
+
+.cuisine-flag img{width:100%;height:100%;object-fit:cover;display:block}
