@@ -2418,5 +2418,44 @@
       "startedAt": "2026-10-27T20:22:44.934Z"
     }
   },
-  "undo": null
+  "undo": null,
+  "restaurant": {
+    "version": 1,
+    "dishes": [
+      {
+        "id": "imw1yotntqjsvsv",
+        "name": "Тако з куркою",
+        "description": "КУРКА , ГУАКАМОЛЕ  ТА СОУС СОЛОДКИЙ ЧИЛІ",
+        "taste": "Пікантне, Овочеве",
+        "category": "Друге",
+        "type": "М’ясна страва",
+        "tasteTags": [
+          "Пікантне",
+          "Овочеве"
+        ],
+        "tasteCustom": "",
+        "cuisineCountry": "MX",
+        "venueName": "Que Pasa LEM",
+        "venueAddress": "вул. Дмитра Вітовського, 57, Львів",
+        "oldRating": null,
+        "oldAux": null
+      }
+    ],
+    "history": [],
+    "tournaments": {},
+    "champions": [],
+    "freePairs": {},
+    "calibrations": {
+      "imw1yotntqjsvsv": {
+        "mode": "auto",
+        "scope": "cross",
+        "target": 10,
+        "opponent": null,
+        "finished": true,
+        "reason": "noOpponents",
+        "startedAt": "2026-11-04T10:16:16.169Z"
+      }
+    },
+    "undo": null
+  }
 }
