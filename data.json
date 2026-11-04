@@ -654,6 +654,80 @@
       "tasteCustom": "Макове",
       "oldRating": null,
       "oldAux": null
+    },
+    {
+      "id": "imw2k36to3sgmb6",
+      "name": "Гарбузово-апельсиново-яблучний пиріг",
+      "description": "Основа з меленого гарбуза, з додаванням четвертини апельсина, шматочками яблука\nВсе запечене в духовці при 180Со 30-40хв",
+      "taste": "Солодке, Ніжне, Фруктове",
+      "category": "Десерт",
+      "type": "Торт / пиріг",
+      "tasteTags": [
+        "Солодке",
+        "Ніжне",
+        "Фруктове"
+      ],
+      "tasteCustom": "",
+      "cuisineCountry": "",
+      "assessment": {
+        "taste": 8,
+        "origin": "home",
+        "home": {
+          "cost": "moderate",
+          "difficulty": "medium",
+          "time": "long",
+          "again": "maybe"
+        },
+        "restaurant": {
+          "portion": null,
+          "value": null,
+          "again": null,
+          "price": null
+        }
+      },
+      "venueName": "",
+      "venueAddress": "",
+      "venueCountry": "",
+      "venueCity": "",
+      "venueStreet": "",
+      "oldRating": null,
+      "oldAux": null
+    },
+    {
+      "id": "imw2k6km20r2u85",
+      "name": "Гарбузово-апельсиново-морквяний пиріг",
+      "description": "Основа з меленого гарбуза, з додаванням четвертини апельсина, меленої моркви з додаванням подрібленого арахісу\nВсе запечене в духовці при 180Со 30-40хв",
+      "taste": "Солодке",
+      "category": "Десерт",
+      "type": "Торт / пиріг",
+      "tasteTags": [
+        "Солодке"
+      ],
+      "tasteCustom": "",
+      "cuisineCountry": "",
+      "assessment": {
+        "taste": 6,
+        "origin": "home",
+        "home": {
+          "cost": "moderate",
+          "difficulty": "medium",
+          "time": "long",
+          "again": "no"
+        },
+        "restaurant": {
+          "portion": null,
+          "value": null,
+          "again": null,
+          "price": null
+        }
+      },
+      "venueName": "",
+      "venueAddress": "",
+      "venueCountry": "",
+      "venueCity": "",
+      "venueStreet": "",
+      "oldRating": null,
+      "oldAux": null
     }
   ],
   "history": [
@@ -2373,13 +2447,7 @@
       "matches": 48
     }
   ],
-  "freePairs": {
-    "Десерт": {
-      "a": "f027",
-      "b": "f038",
-      "lane": "league"
-    }
-  },
+  "freePairs": {},
   "calibrations": {
     "imvl4idx8vwh5ej": {
       "mode": "auto",
@@ -2416,6 +2484,24 @@
       "finished": true,
       "reason": "limit",
       "startedAt": "2026-10-27T20:22:44.934Z"
+    },
+    "imw2k36to3sgmb6": {
+      "mode": "auto",
+      "scope": "same",
+      "target": 10,
+      "opponent": "imvr4ty2tioii3i",
+      "finished": false,
+      "reason": null,
+      "startedAt": "2026-11-04T20:15:18.348Z"
+    },
+    "imw2k6km20r2u85": {
+      "mode": "auto",
+      "scope": "same",
+      "target": 10,
+      "opponent": "imvr4ty2tioii3i",
+      "finished": false,
+      "reason": null,
+      "startedAt": "2026-11-04T20:17:56.187Z"
     }
   },
   "undo": null,
