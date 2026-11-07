@@ -27,7 +27,35 @@
       "tasteTags": [
         "Солодке"
       ],
-      "tasteCustom": ""
+      "tasteCustom": "",
+      "cuisineCountry": "",
+      "assessment": {
+        "taste": null,
+        "origin": "home",
+        "home": {
+          "cost": null,
+          "difficulty": null,
+          "time": null,
+          "again": null
+        },
+        "restaurant": {
+          "portion": null,
+          "value": null,
+          "again": null,
+          "price": null
+        }
+      },
+      "photo": null,
+      "photos": [
+        {
+          "path": "photos/56c72b796d8f59221b4e08dc6347ff6eb6026cee83f7984ac645383839051001.webp"
+        }
+      ],
+      "venueName": "",
+      "venueAddress": "",
+      "venueCountry": "",
+      "venueCity": "",
+      "venueStreet": ""
     },
     {
       "name": "\"Перина і какао зверху\"",
@@ -111,7 +139,38 @@
       "tasteTags": [
         "Солодке"
       ],
-      "tasteCustom": ""
+      "tasteCustom": "",
+      "cuisineCountry": "",
+      "assessment": {
+        "taste": null,
+        "origin": "home",
+        "home": {
+          "cost": null,
+          "difficulty": null,
+          "time": null,
+          "again": null
+        },
+        "restaurant": {
+          "portion": null,
+          "value": null,
+          "again": null,
+          "price": null
+        }
+      },
+      "photo": null,
+      "photos": [
+        {
+          "path": "photos/9e7ab5f77229f47e12ff05379455576fdb3b068d63b691ec63f0dfd7997cc92f.webp"
+        },
+        {
+          "path": "photos/3d954dae9bdaa5229636869861c36814404093e75303f388e5142565b3431f30.webp"
+        }
+      ],
+      "venueName": "",
+      "venueAddress": "",
+      "venueCountry": "",
+      "venueCity": "",
+      "venueStreet": ""
     },
     {
       "name": "\"Не млинці, а налисники з сиром\"",
@@ -153,7 +212,35 @@
       "tasteTags": [
         "Солодке"
       ],
-      "tasteCustom": ""
+      "tasteCustom": "",
+      "cuisineCountry": "",
+      "assessment": {
+        "taste": null,
+        "origin": "home",
+        "home": {
+          "cost": null,
+          "difficulty": null,
+          "time": null,
+          "again": null
+        },
+        "restaurant": {
+          "portion": null,
+          "value": null,
+          "again": null,
+          "price": null
+        }
+      },
+      "photo": null,
+      "photos": [
+        {
+          "path": "photos/6cd013e62c0d6b5985d10eaa871de77125f0fbb860143e161047436c4f6e9cd7.webp"
+        }
+      ],
+      "venueName": "",
+      "venueAddress": "",
+      "venueCountry": "",
+      "venueCity": "",
+      "venueStreet": ""
     },
     {
       "name": "\"VIP пюрешка\"",
@@ -279,7 +366,38 @@
       "tasteTags": [
         "Солодке"
       ],
-      "tasteCustom": ""
+      "tasteCustom": "",
+      "cuisineCountry": "",
+      "assessment": {
+        "taste": null,
+        "origin": "home",
+        "home": {
+          "cost": null,
+          "difficulty": null,
+          "time": null,
+          "again": null
+        },
+        "restaurant": {
+          "portion": null,
+          "value": null,
+          "again": null,
+          "price": null
+        }
+      },
+      "photo": null,
+      "photos": [
+        {
+          "path": "photos/ed1bdec0fd092f02f2a826f402ae5f419343b1ddc2f2fffb7a19fe3ad3e351fc.webp"
+        },
+        {
+          "path": "photos/fe9945c1fa51de293b1c9aba9ebe5d67b8222655b69e3bc8a32548776a671468.webp"
+        }
+      ],
+      "venueName": "",
+      "venueAddress": "",
+      "venueCountry": "",
+      "venueCity": "",
+      "venueStreet": ""
     },
     {
       "name": "Кекс \"Чорний Банан\"",
@@ -293,7 +411,38 @@
       "tasteTags": [
         "Солодке"
       ],
-      "tasteCustom": ""
+      "tasteCustom": "",
+      "cuisineCountry": "",
+      "assessment": {
+        "taste": null,
+        "origin": "home",
+        "home": {
+          "cost": null,
+          "difficulty": null,
+          "time": null,
+          "again": null
+        },
+        "restaurant": {
+          "portion": null,
+          "value": null,
+          "again": null,
+          "price": null
+        }
+      },
+      "photo": null,
+      "photos": [
+        {
+          "path": "photos/ed1bdec0fd092f02f2a826f402ae5f419343b1ddc2f2fffb7a19fe3ad3e351fc.webp"
+        },
+        {
+          "path": "photos/fe9945c1fa51de293b1c9aba9ebe5d67b8222655b69e3bc8a32548776a671468.webp"
+        }
+      ],
+      "venueName": "",
+      "venueAddress": "",
+      "venueCountry": "",
+      "venueCity": "",
+      "venueStreet": ""
     },
     {
       "name": "\"Лист з сирної пошти\"",
@@ -433,7 +582,35 @@
       "tasteTags": [
         "Солодке"
       ],
-      "tasteCustom": ""
+      "tasteCustom": "",
+      "cuisineCountry": "",
+      "assessment": {
+        "taste": null,
+        "origin": "home",
+        "home": {
+          "cost": null,
+          "difficulty": null,
+          "time": null,
+          "again": null
+        },
+        "restaurant": {
+          "portion": null,
+          "value": null,
+          "again": null,
+          "price": null
+        }
+      },
+      "photo": null,
+      "photos": [
+        {
+          "path": "photos/c803cc50942bf5f970da9fc38c609cc98592879a2b16ae5521732bdfe8379280.webp"
+        }
+      ],
+      "venueName": "",
+      "venueAddress": "",
+      "venueCountry": "",
+      "venueCity": "",
+      "venueStreet": ""
     },
     {
       "name": "\"М'ясо по гавайськи\"",
@@ -573,7 +750,35 @@
       "tasteTags": [
         "Ніжне"
       ],
-      "tasteCustom": ""
+      "tasteCustom": "",
+      "cuisineCountry": "",
+      "assessment": {
+        "taste": null,
+        "origin": "home",
+        "home": {
+          "cost": null,
+          "difficulty": null,
+          "time": null,
+          "again": null
+        },
+        "restaurant": {
+          "portion": null,
+          "value": null,
+          "again": null,
+          "price": null
+        }
+      },
+      "photo": null,
+      "photos": [
+        {
+          "path": "photos/4c21c8a833566f478c51eb23c2c857afc363c93272696a730d8a6df8d97d0d55.webp"
+        }
+      ],
+      "venueName": "",
+      "venueAddress": "",
+      "venueCountry": "",
+      "venueCity": "",
+      "venueStreet": ""
     },
     {
       "id": "imvkz5qcnkvrvnl",
@@ -623,7 +828,41 @@
       ],
       "tasteCustom": "",
       "oldRating": null,
-      "oldAux": null
+      "oldAux": null,
+      "cuisineCountry": "",
+      "assessment": {
+        "taste": null,
+        "origin": "home",
+        "home": {
+          "cost": null,
+          "difficulty": null,
+          "time": null,
+          "again": null
+        },
+        "restaurant": {
+          "portion": null,
+          "value": null,
+          "again": null,
+          "price": null
+        }
+      },
+      "photo": null,
+      "photos": [
+        {
+          "path": "photos/cc039279487135308a085606e21e3ead0f21e549644cb0759a6b3c0f1c9eebce.webp"
+        },
+        {
+          "path": "photos/d3329b13326473a2bc3185ac6c5ae73c7229692481f5241ed558ee6e63602beb.webp"
+        },
+        {
+          "path": "photos/8e13d6ab645226a3182da4f96c9064ea4dc1ae0f993cb9fae039923d8c37e98a.webp"
+        }
+      ],
+      "venueName": "",
+      "venueAddress": "",
+      "venueCountry": "",
+      "venueCity": "",
+      "venueStreet": ""
     },
     {
       "id": "imvl5ky9r4y259n",
@@ -721,6 +960,130 @@
           "price": null
         }
       },
+      "venueName": "",
+      "venueAddress": "",
+      "venueCountry": "",
+      "venueCity": "",
+      "venueStreet": "",
+      "oldRating": null,
+      "oldAux": null
+    },
+    {
+      "id": "imw6r2izj4xpdui",
+      "name": "Вареники XL",
+      "description": "",
+      "taste": "",
+      "category": "Друге",
+      "type": "Картопляна страва",
+      "tasteTags": [],
+      "tasteCustom": "",
+      "cuisineCountry": "UA",
+      "assessment": {
+        "taste": 7.5,
+        "origin": "home",
+        "home": {
+          "cost": "cheap",
+          "difficulty": "medium",
+          "time": "long",
+          "again": "yes"
+        },
+        "restaurant": {
+          "portion": null,
+          "value": null,
+          "again": null,
+          "price": null
+        }
+      },
+      "photo": null,
+      "photos": [],
+      "venueName": "",
+      "venueAddress": "",
+      "venueCountry": "",
+      "venueCity": "",
+      "venueStreet": "",
+      "oldRating": null,
+      "oldAux": null
+    },
+    {
+      "id": "imw6r57y8ycgj6t",
+      "name": "Картопляні пальчики (Палюшки)",
+      "description": "картопля в перемішку з містом, зварені в воді",
+      "taste": "",
+      "category": "Друге",
+      "type": "Картопляна страва",
+      "tasteTags": [],
+      "tasteCustom": "",
+      "cuisineCountry": "UA",
+      "assessment": {
+        "taste": 6.5,
+        "origin": "home",
+        "home": {
+          "cost": "cheap",
+          "difficulty": "medium",
+          "time": "medium",
+          "again": "yes"
+        },
+        "restaurant": {
+          "portion": null,
+          "value": null,
+          "again": null,
+          "price": null
+        }
+      },
+      "photo": null,
+      "photos": [
+        {
+          "path": "photos/e9c615cecc0e54a152519c141efcfe943e0226683a98958ac1fdde2de571fd01.webp"
+        },
+        {
+          "path": "photos/e840cf2059e3bace3089698ec4bef9857ed7f1dc9a3a8c7a3d0cf4d5d86aec5c.webp"
+        }
+      ],
+      "venueName": "",
+      "venueAddress": "",
+      "venueCountry": "",
+      "venueCity": "",
+      "venueStreet": "",
+      "oldRating": null,
+      "oldAux": null
+    },
+    {
+      "id": "imw6reu8l9qe98w",
+      "name": "ПП шоколадка (пиріг)",
+      "description": "сочевиця, банан, какао, стандартне тісто для випічки\n\nтрішки сухий, більше б вологи, або їсти з кавою",
+      "taste": "Солодке, Без цукру, ПП, Какао",
+      "category": "Десерт",
+      "type": "Торт / пиріг",
+      "tasteTags": [
+        "Солодке"
+      ],
+      "tasteCustom": "Без цукру, ПП, Какао",
+      "cuisineCountry": "",
+      "assessment": {
+        "taste": 7,
+        "origin": "home",
+        "home": {
+          "cost": "expensive",
+          "difficulty": "medium",
+          "time": "long",
+          "again": "maybe"
+        },
+        "restaurant": {
+          "portion": null,
+          "value": null,
+          "again": null,
+          "price": null
+        }
+      },
+      "photo": null,
+      "photos": [
+        {
+          "path": "photos/2f807ba44d2d1b445fc1bd828e74501de7081aa5198b62161ac0455ff27931fa.webp"
+        },
+        {
+          "path": "photos/4514e1e27298fb7d5edc6a31411fa2ed2b9175b662f459a192d2822f3393a39a.webp"
+        }
+      ],
       "venueName": "",
       "venueAddress": "",
       "venueCountry": "",
@@ -2502,6 +2865,33 @@
       "finished": false,
       "reason": null,
       "startedAt": "2026-11-04T20:17:56.187Z"
+    },
+    "imw6r2izj4xpdui": {
+      "mode": "auto",
+      "scope": "same",
+      "target": 10,
+      "opponent": "f010",
+      "finished": false,
+      "reason": null,
+      "startedAt": "2026-11-07T18:41:49.471Z"
+    },
+    "imw6r57y8ycgj6t": {
+      "mode": "auto",
+      "scope": "same",
+      "target": 10,
+      "opponent": "f010",
+      "finished": false,
+      "reason": null,
+      "startedAt": "2026-11-07T18:43:55.136Z"
+    },
+    "imw6reu8l9qe98w": {
+      "mode": "auto",
+      "scope": "same",
+      "target": 10,
+      "opponent": "imvr4ty2tioii3i",
+      "finished": false,
+      "reason": null,
+      "startedAt": "2026-11-07T18:51:23.926Z"
     }
   },
   "undo": null,
