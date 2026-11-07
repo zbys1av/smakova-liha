@@ -14,10 +14,10 @@ function boot(stored,mode='home'){
  const ctx={console,Date,Math,JSON,Map,Set,Number,String,Object,Array,RegExp,Boolean,Promise,
   setTimeout(){return 1},clearTimeout(){},confirm:()=>true,location:{protocol:'file:'},
   FormData:class{constructor(form){this.data=form.data}get(k){return this.data[k]??null}},
-  localStorage:{getItem:k=>values.get(k)||null,setItem:(k,v)=>values.set(k,v)},
+  localStorage:{getItem:k=>values.get(k)||null,setItem:(k,v)=>values.set(k,v),removeItem:k=>values.delete(k)},
   document:{documentElement:{dataset:{}},querySelector:s=>['#app','#toast','#importFile'].includes(s)?element:null,addEventListener:(k,fn)=>{events[k]=fn;(eventsAll[k]??=[]).push(fn)}},
   window:{matchMedia:()=>({matches:false,addEventListener(){}}),SMAKOVA_UI:{controls:()=>'',apply(){}},scrollTo(){},addEventListener:(k,fn)=>windowEvents[k]=fn}};
- vm.createContext(ctx);vm.runInContext(fs.readFileSync(path.join(root,'dish-appearance.js'),'utf8'),ctx);vm.runInContext(fs.readFileSync(path.join(root,'taste-rating.js'),'utf8'),ctx);vm.runInContext(fs.readFileSync(path.join(root,'collection.js'),'utf8'),ctx);vm.runInContext(fs.readFileSync(path.join(root,'unified-rating.js'),'utf8'),ctx);vm.runInContext(fs.readFileSync(path.join(root,'refine-ui.js'),'utf8'),ctx);vm.runInContext(fs.readFileSync(path.join(root,'adaptive-sidebar.js'),'utf8'),ctx);vm.runInContext(fs.readFileSync(path.join(root,'location-filters.js'),'utf8'),ctx);vm.runInContext(fs.readFileSync(path.join(root,'recipe-history.js'),'utf8'),ctx);vm.runInContext(source,ctx);
+ vm.createContext(ctx);vm.runInContext(fs.readFileSync(path.join(root,'dish-appearance.js'),'utf8'),ctx);vm.runInContext(fs.readFileSync(path.join(root,'taste-rating.js'),'utf8'),ctx);vm.runInContext(fs.readFileSync(path.join(root,'collection.js'),'utf8'),ctx);vm.runInContext(fs.readFileSync(path.join(root,'unified-rating.js'),'utf8'),ctx);vm.runInContext(fs.readFileSync(path.join(root,'refine-ui.js'),'utf8'),ctx);vm.runInContext(fs.readFileSync(path.join(root,'adaptive-sidebar.js'),'utf8'),ctx);vm.runInContext(fs.readFileSync(path.join(root,'location-filters.js'),'utf8'),ctx);vm.runInContext(fs.readFileSync(path.join(root,'recipe-history.js'),'utf8'),ctx);vm.runInContext(fs.readFileSync(path.join(root,'dish-photos.js'),'utf8'),ctx);vm.runInContext(source,ctx);
  return {ctx,values,events,eventsAll,windowEvents,element,run:code=>vm.runInContext(code,ctx)};
 }
 async function main(){
@@ -113,4 +113,5 @@ async function main(){
 }
 if(require.main===module)main().catch(e=>{console.error(e);process.exitCode=1});
 module.exports={boot};
+
 

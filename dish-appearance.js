@@ -28,6 +28,6 @@ function updateDishPreview(){
  const form=document.querySelector('#dishForm'),slot=document.querySelector('#dishIconPreview');if(!form||!slot)return;
  const data=new FormData(form),previous=ui.modal?.id?dish(ui.modal.id):{};
  const category=data.get('category')==='__new'?data.get('newCategory'):(data.get('category')||previous?.category||'');
- const draft={name:data.get('name')||'',type:data.get('dishType')||'',category,tasteTags:String(data.get('tasteTags')||'').split('|').filter(Boolean),tasteCustom:data.get('tasteCustom')||''};
+ const draft={photos:photoDraft(previous),name:data.get('name')||'',type:data.get('dishType')||'',category,tasteTags:String(data.get('tasteTags')||'').split('|').filter(Boolean),tasteCustom:data.get('tasteCustom')||''};
  slot.innerHTML=renderDishIcon(draft,'modal-preview');
 }

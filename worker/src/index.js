@@ -94,6 +94,28 @@ async function remote(env){
  if(!validData(data))throw Object.assign(new Error('Invalid GitHub data.json'),{status:502});
  return {data,sha:f.sha};
 }
+// Content-addressed images: bounded, authenticated and never overwritten.
+async function uploadPhoto(req,env){
+ await verifyIdentity(req,env);
+ const length=Number(req.headers.get('content-length')||0);if(length>350000)return failure(413,'Photo too large');
+ const text=await req.text();if(text.length>350000)return failure(413,'Photo too large');
+ let body;try{body=JSON.parse(text)}catch{return failure(400,'Invalid photo JSON')}
+ const match=/^data:image\/(webp|jpeg);base64,([A-Za-z0-9+/]+={0,2})$/.exec(body?.data||'');if(!match)return failure(400,'Only WebP or JPEG images are supported');
+ let raw;try{raw=Uint8Array.from(atob(match[2]),c=>c.charCodeAt(0))}catch{return failure(400,'Invalid image encoding')}
+ if(!raw.length||raw.length>240*1024)return failure(413,'Photo too large');
+ const webp=raw.length>=12&&String.fromCharCode(...raw.slice(0,4))==='RIFF'&&String.fromCharCode(...raw.slice(8,12))==='WEBP',jpeg=raw.length>=3&&raw[0]===255&&raw[1]===216&&raw[2]===255;
+ if(match[1]==='webp'?!webp:!jpeg)return failure(400,'Image format mismatch');
+ const digest=Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',raw)),x=>x.toString(16).padStart(2,'0')).join('');
+ const path='photos/'+digest+(webp?'.webp':'.jpg'),base=endpoint(env).replace(/data\.json$/,path),branch=env.GITHUB_BRANCH||'main',token=String(env.GITHUB_TOKEN||'').trim();
+ if(!token||/^(Bearer|token)\s/i.test(token))throw Object.assign(new Error('GitHub token unavailable'),{status:503});
+ const headers={authorization:'Bearer '+token,accept:'application/vnd.github+json','x-github-api-version':'2022-11-28','user-agent':'SMAKOVA-LIHA-Cloudflare-Worker'};
+ async function existing(){const r=await fetch(base+'?ref='+encodeURIComponent(branch),{headers});if(r.status===404)return false;if(!r.ok)throw Object.assign(new Error('GitHub photo lookup failed'),{status:502});const payload=await r.json();if(payload.encoding!=='base64'||!payload.content)throw Object.assign(new Error('Invalid existing photo'),{status:502});const bytes=base64url(payload.content.replace(/\s/g,'')),hash=Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',bytes)),x=>x.toString(16).padStart(2,'0')).join('');if(hash!==digest)throw Object.assign(new Error('Existing photo does not match its name'),{status:409});return true}
+ if(await existing())return asJson({path});
+ const result=await fetch(base,{method:'PUT',headers:{...headers,'content-type':'application/json'},body:JSON.stringify({message:'Смакова ліга · фото страви',content:match[2],branch})});
+ if([409,422].includes(result.status)&&await existing())return asJson({path});
+ if(!result.ok)throw Object.assign(new Error('GitHub photo upload failed'),{status:502});
+ return asJson({path});
+}
 export default {async fetch(req,env){
  const origin=req.headers.get('origin');const allowed=String(env.ALLOWED_ORIGIN||'').replace(/\/$/,'');
  if(origin&&origin!==allowed)return failure(403,'Origin not allowed');
@@ -104,6 +126,7 @@ export default {async fetch(req,env){
  if(path==='/health'&&req.method==='GET')result=asJson({ok:true,service:'smakova-liha-github'});
  else if(path==='/data'&&req.method==='GET'){const f=await remote(env);result=f?asJson(f):failure(404,'data.json not found');}
  else if(path==='/me'&&req.method==='GET'){const user=await verifyIdentity(req,env);result=asJson({authorized:true,email:user.email});}
+ else if(path==='/photo'&&req.method==='PUT')result=await uploadPhoto(req,env);
  else if(path==='/data'&&req.method==='PUT'){
    const user=await verifyIdentity(req,env);const text=await req.text();
    if(text.length>5000000)result=failure(413,'JSON too large');
