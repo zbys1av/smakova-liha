@@ -877,7 +877,35 @@
       ],
       "tasteCustom": "Гарбузове",
       "oldRating": null,
-      "oldAux": null
+      "oldAux": null,
+      "cuisineCountry": "",
+      "assessment": {
+        "taste": null,
+        "origin": "home",
+        "home": {
+          "cost": null,
+          "difficulty": null,
+          "time": null,
+          "again": null
+        },
+        "restaurant": {
+          "portion": null,
+          "value": null,
+          "again": null,
+          "price": null
+        }
+      },
+      "photo": null,
+      "photos": [
+        {
+          "path": "photos/d9d94604ccbeaefa177540e6b32782d49aa98e52f6826348e222a86dbdd47c89.webp"
+        }
+      ],
+      "venueName": "",
+      "venueAddress": "",
+      "venueCountry": "",
+      "venueCity": "",
+      "venueStreet": ""
     },
     {
       "id": "imvr4ty2tioii3i",
@@ -995,7 +1023,11 @@
         }
       },
       "photo": null,
-      "photos": [],
+      "photos": [
+        {
+          "path": "photos/49f69a0b9b671cd8d512a24e3856fb01b7263a3899b7762630f4f48cdad8616d.webp"
+        }
+      ],
       "venueName": "",
       "venueAddress": "",
       "venueCountry": "",
@@ -1082,6 +1114,51 @@
         },
         {
           "path": "photos/4514e1e27298fb7d5edc6a31411fa2ed2b9175b662f459a192d2822f3393a39a.webp"
+        }
+      ],
+      "venueName": "",
+      "venueAddress": "",
+      "venueCountry": "",
+      "venueCity": "",
+      "venueStreet": "",
+      "oldRating": null,
+      "oldAux": null
+    },
+    {
+      "id": "imwax2omrujpczi",
+      "name": "Не чАнахи",
+      "description": "м'ясо (свинна шия), картопля, морква, цибуля, перець (болгарський), квасоля, томатна паста, спеції",
+      "taste": "Пряне, Пікантне, М’ясне, Ситне",
+      "category": "Перше",
+      "type": "М’ясна страва",
+      "tasteTags": [
+        "Пряне",
+        "Пікантне",
+        "М’ясне",
+        "Ситне"
+      ],
+      "tasteCustom": "",
+      "cuisineCountry": "GE",
+      "assessment": {
+        "taste": 8.5,
+        "origin": "home",
+        "home": {
+          "cost": "moderate",
+          "difficulty": "medium",
+          "time": "long",
+          "again": "yes"
+        },
+        "restaurant": {
+          "portion": null,
+          "value": null,
+          "again": null,
+          "price": null
+        }
+      },
+      "photo": null,
+      "photos": [
+        {
+          "path": "photos/392d9d5fff6d252a0c7a2593f658dc60bdfc2c981746e3b52e3cbf37bfad7353.webp"
         }
       ],
       "venueName": "",
@@ -2892,6 +2969,15 @@
       "finished": false,
       "reason": null,
       "startedAt": "2026-11-07T18:51:23.926Z"
+    },
+    "imwax2omrujpczi": {
+      "mode": "auto",
+      "scope": "same",
+      "target": 10,
+      "opponent": "f016",
+      "finished": false,
+      "reason": null,
+      "startedAt": "2026-11-10T16:40:59.187Z"
     }
   },
   "undo": null,
