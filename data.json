@@ -296,7 +296,8 @@
       "tasteTags": [
         "Солодке"
       ],
-      "tasteCustom": ""
+      "tasteCustom": "",
+      "recipeMainId": "imwuen3ygvz9s5k"
     },
     {
       "name": "\"Ніжний борщ\"",
@@ -1047,7 +1048,7 @@
       "tasteCustom": "",
       "cuisineCountry": "UA",
       "assessment": {
-        "taste": 6.5,
+        "taste": 7.5,
         "origin": "home",
         "home": {
           "cost": "cheap",
@@ -1161,6 +1162,174 @@
           "path": "photos/392d9d5fff6d252a0c7a2593f658dc60bdfc2c981746e3b52e3cbf37bfad7353.webp"
         }
       ],
+      "venueName": "",
+      "venueAddress": "",
+      "venueCountry": "",
+      "venueCity": "",
+      "venueStreet": "",
+      "oldRating": null,
+      "oldAux": null
+    },
+    {
+      "name": "Оладі \"Ябельники\"",
+      "description": "Звичайні оладі, але з великою кількістю яблучного пюре в основі тіста",
+      "oldRating": null,
+      "oldAux": null,
+      "category": "Десерт",
+      "taste": "Солодке, Кисле, Фруктове",
+      "type": "Млинці / сирники",
+      "tasteTags": [
+        "Солодке",
+        "Кисле",
+        "Фруктове"
+      ],
+      "tasteCustom": "",
+      "archived": false,
+      "recipeCreatedAt": "2026-11-24T08:00:22.984Z",
+      "id": "imwuen3ygvz9s5k",
+      "cuisineCountry": "",
+      "assessment": {
+        "taste": 7.5,
+        "origin": "home",
+        "home": {
+          "cost": "cheap",
+          "difficulty": "easy",
+          "time": "medium",
+          "again": "yes"
+        },
+        "restaurant": {
+          "portion": null,
+          "value": null,
+          "again": null,
+          "price": null
+        }
+      },
+      "photo": null,
+      "photos": [
+        {
+          "path": "photos/ae1b8bcb4fc029a0e4e76f99b617afc3472d224eda47ff431a481e76f95456ec.webp"
+        },
+        {
+          "path": "photos/57a5e89ca23e40d02422db4cc61f26273834adc7253370c24530a6e8f3faa744.webp"
+        }
+      ],
+      "venueName": "",
+      "venueCountry": "",
+      "venueCity": "",
+      "venueStreet": "",
+      "recipeRootId": "f015",
+      "recipeColorIndex": 41,
+      "recipeVersionName": "Рецепт 2",
+      "recipeVersionDescription": "",
+      "venueAddress": ""
+    },
+    {
+      "id": "imwueriwxu45dw8",
+      "name": "Ватрушка",
+      "description": "Тісто з углибленням посередині, яке заповнене творожною солодкою масою з додаванням ізюму",
+      "taste": "Солодке, Творожне",
+      "category": "Десерт",
+      "type": "Кекс / печиво",
+      "tasteTags": [
+        "Солодке"
+      ],
+      "tasteCustom": "Творожне",
+      "cuisineCountry": "",
+      "assessment": {
+        "taste": 6.5,
+        "origin": "home",
+        "home": {
+          "cost": "moderate",
+          "difficulty": "medium",
+          "time": "long",
+          "again": "maybe"
+        },
+        "restaurant": {
+          "portion": null,
+          "value": null,
+          "again": null,
+          "price": null
+        }
+      },
+      "photo": null,
+      "photos": [],
+      "venueName": "",
+      "venueAddress": "",
+      "venueCountry": "",
+      "venueCity": "",
+      "venueStreet": "",
+      "oldRating": null,
+      "oldAux": null
+    },
+    {
+      "id": "imwueuei4ge54eg",
+      "name": "Сінабони з творогу",
+      "description": "Візуально - стандартний сінабон, але з додаванням солодкого творогу. \n(получилося трішки сухим/пісним)",
+      "taste": "Солодке",
+      "category": "Десерт",
+      "type": "Кекс / печиво",
+      "tasteTags": [
+        "Солодке"
+      ],
+      "tasteCustom": "",
+      "cuisineCountry": "",
+      "assessment": {
+        "taste": 6,
+        "origin": "home",
+        "home": {
+          "cost": "moderate",
+          "difficulty": "medium",
+          "time": "long",
+          "again": "maybe"
+        },
+        "restaurant": {
+          "portion": null,
+          "value": null,
+          "again": null,
+          "price": null
+        }
+      },
+      "photo": null,
+      "photos": [],
+      "venueName": "",
+      "venueAddress": "",
+      "venueCountry": "",
+      "venueCity": "",
+      "venueStreet": "",
+      "oldRating": null,
+      "oldAux": null
+    },
+    {
+      "id": "imwuex2dnfk97ei",
+      "name": "Тушена капуска з м'ясом",
+      "description": "",
+      "taste": "М’ясне, Овочеве",
+      "category": "Друге",
+      "type": "М’ясна страва",
+      "tasteTags": [
+        "М’ясне",
+        "Овочеве"
+      ],
+      "tasteCustom": "",
+      "cuisineCountry": "",
+      "assessment": {
+        "taste": 5.5,
+        "origin": "home",
+        "home": {
+          "cost": "moderate",
+          "difficulty": "medium",
+          "time": "medium",
+          "again": "no"
+        },
+        "restaurant": {
+          "portion": null,
+          "value": null,
+          "again": null,
+          "price": null
+        }
+      },
+      "photo": null,
+      "photos": [],
       "venueName": "",
       "venueAddress": "",
       "venueCountry": "",
@@ -2978,6 +3147,33 @@
       "finished": false,
       "reason": null,
       "startedAt": "2026-11-10T16:40:59.187Z"
+    },
+    "imwueriwxu45dw8": {
+      "mode": "auto",
+      "scope": "same",
+      "target": 10,
+      "opponent": "imvr4ty2tioii3i",
+      "finished": false,
+      "reason": null,
+      "startedAt": "2026-11-24T08:03:48.993Z"
+    },
+    "imwueuei4ge54eg": {
+      "mode": "auto",
+      "scope": "same",
+      "target": 10,
+      "opponent": "imvr4ty2tioii3i",
+      "finished": false,
+      "reason": null,
+      "startedAt": "2026-11-24T08:06:03.245Z"
+    },
+    "imwuex2dnfk97ei": {
+      "mode": "auto",
+      "scope": "same",
+      "target": 10,
+      "opponent": "f010",
+      "finished": false,
+      "reason": null,
+      "startedAt": "2026-11-24T08:08:07.499Z"
     }
   },
   "undo": null,
